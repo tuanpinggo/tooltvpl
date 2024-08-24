@@ -17,9 +17,11 @@ async function getluocdo(item,doc_id){
 
     $(".ghd")?.each(function(i, elem) {
 
-        const title = _.trim($(this).text())
+        let title = _.trim($(this).text())
 
-        if(title.indexOf('đang xem') > 0) return
+        if(title.indexOf('đang xem') > 0){
+            title = "Văn bản hiện tại"
+        }
 
         result.push({
             title: _.trim($(this).text()),
@@ -43,7 +45,7 @@ async function getDiagram(){
     for (let i = begin;i < end; i ++){
         const item = folders[i]
         const key = i
-        let id = begin + key + 1
+        let id = begin + key + 1 + 2
         await getluocdo(item,id)
     }
 }
