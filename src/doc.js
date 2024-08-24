@@ -2,7 +2,9 @@ const fs = require('fs.promises');
 const _ = require('lodash')
 const cheerio = require('cheerio');
 
+// config
 const rootDir = '../datas'
+const docTxt = './doc.txt'
 
 const begin = 0
 const end = 100
@@ -82,7 +84,7 @@ async function getDoc(){
             updated_at:'2024-08-24 21:25:17'
         })
 
-        await fs.appendFile('./doc.txt',result + ',')
+        await fs.appendFile(docTxt,result + ',')
     }
 
     console.log('done')
