@@ -1,0 +1,78 @@
+const express = require('express')
+const app = express()
+const fs = require('fs.promises');
+const _ = require('lodash')
+
+const rootDir = '../data'
+
+const begin = 0
+
+function getSlug(string){
+    const str = _.split(string,'/',10)[5]
+    return str.slice(0,str.length - 12)
+}
+
+async function getContent(){
+    return ""
+}
+
+async function getDescription(){
+    return ""
+}
+
+async function checkFileExit(fileName,slug,fileType){
+
+    try {
+        await fs.readFile(fileName)
+        return true
+    } catch (error) {
+        return false
+    }
+
+}
+
+
+app.get('/', async (req, res) => {
+
+    let result = []
+
+    const folders = await fs.readdir(rootDir)
+
+    folders.map(async (item,key) => {
+        const json = require(`${rootDir}/${item}/general_information.json`)
+
+        let slug = getSlug(json.link)
+
+        const checkpdf = await checkFileExit(`${rootDir}/${item}/${slug}.pdf`,slug,'pdf')
+        const checkDoc = await checkFileExit(`${rootDir}/${item}/${slug}.doc`,slug,'doc')
+        
+        let id = begin + key + 1
+        let law_id = json.law_id
+        let title = json.title
+        
+        let description = await getDescription()
+        let content = await getContent()
+        let doc_pdf = checkpdf ? `https://cdn.luatphapvietnam.org/van-ban/${slug}.pdf` : ""
+        let doc_word = checkDoc ? `https://cdn.luatphapvietnam.org/van-ban/${slug}.doc` : ""
+
+        result.push({
+            id,
+            law_id,
+            title,
+            slug,
+            description,
+            content,
+            doc_pdf,
+            doc_word,
+            created_at:'2024-08-24 21:25:17', 
+            updated_at:'2024-08-24 21:25:17'
+        })
+    })
+
+    res.send(result)
+
+})
+
+app.listen(3000, function(e){
+    console.log('server run in port 3000')
+})
