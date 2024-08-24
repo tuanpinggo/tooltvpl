@@ -1,23 +1,35 @@
-const express = require('express')
-const app = express()
 const fs = require('fs.promises');
 const _ = require('lodash')
+const cheerio = require('cheerio');
 
-const rootDir = '../data'
+const rootDir = '../datas'
 
 const begin = 0
+const end = 100
 
 function getSlug(string){
     const str = _.split(string,'/',10)[5]
     return str.slice(0,str.length - 12)
 }
 
-async function getContent(){
-    return ""
+async function getContent(item){
+    const noidungFile = await fs.readFile(`${rootDir}/${item}/nộidung.html`)
+    const $ = cheerio.load(noidungFile)
+    const content = $('.content1').html()
+
+    // nho repeat sau
+
+    return content
 }
 
-async function getDescription(){
-    return ""
+async function getDescription(item){
+    const noidungFile = await fs.readFile(`${rootDir}/${item}/thuộctính.html`)
+    const $ = cheerio.load(noidungFile)
+    const content = $('.Tomtatvanban').html()
+
+    // nho repeat sau
+    
+    return content
 }
 
 async function checkFileExit(fileName,slug,fileType){
@@ -31,14 +43,15 @@ async function checkFileExit(fileName,slug,fileType){
 
 }
 
-
-app.get('/', async (req, res) => {
-
-    let result = []
+async function getDoc(){
 
     const folders = await fs.readdir(rootDir)
 
-    folders.map(async (item,key) => {
+    for (let i = begin;i < end; i ++){
+
+        const item = folders[i]
+        const key = i
+
         const json = require(`${rootDir}/${item}/general_information.json`)
 
         let slug = getSlug(json.link)
@@ -50,29 +63,30 @@ app.get('/', async (req, res) => {
         let law_id = json.law_id
         let title = json.title
         
-        let description = await getDescription()
-        let content = await getContent()
+        let description = await getDescription(item)
+        // let content = ""
+        let content = await getContent(item)
         let doc_pdf = checkpdf ? `https://cdn.luatphapvietnam.org/van-ban/${slug}.pdf` : ""
         let doc_word = checkDoc ? `https://cdn.luatphapvietnam.org/van-ban/${slug}.doc` : ""
 
-        result.push({
+        const result = JSON.stringify({
             id,
             law_id,
             title,
             slug,
-            description,
+            description: description || "",
             content,
             doc_pdf,
             doc_word,
             created_at:'2024-08-24 21:25:17', 
             updated_at:'2024-08-24 21:25:17'
         })
-    })
 
-    res.send(result)
+        await fs.appendFile('./doc.txt',result + ',')
+    }
 
-})
+    console.log('done')
 
-app.listen(3000, function(e){
-    console.log('server run in port 3000')
-})
+}
+
+getDoc()
