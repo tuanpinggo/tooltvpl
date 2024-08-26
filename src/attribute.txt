@@ -1,0 +1,4 @@
+doc_id,num_code,agency_id,effect,type,is_outstanding,date_issued,date_effective,date_published,sign_person_id,status_id,num_gazette
+
+1,35/NQ-HĐND,Tỉnh Đồng Nai,undefined,Nghị quyết,undefined,22/09/2022,22/09/2022,Đang cập nhật,Thái Bảo,Còn hiệu lực,undefined,undefined,undefined
+2,3689/QĐ-BQP,Bộ Quốc phòng,undefined,Quyết định,undefined,22/09/2022,22/09/2022,Đang cập nhật,Lê Huy Vịnh,Còn hiệu lực,undefined,undefined,undefined

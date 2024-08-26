@@ -45,7 +45,7 @@ async function getDiagram(){
     for (let i = begin;i < end; i ++){
         const item = folders[i]
         const key = i
-        let id = begin + key + 1 + 2
+        let id = begin + key + 1
         await getluocdo(item,id)
     }
 }
