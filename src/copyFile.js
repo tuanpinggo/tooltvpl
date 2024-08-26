@@ -1,7 +1,7 @@
 const fs = require('fs.promises');
 const _ = require('lodash')
 
-const rootDir = '../data'
+const rootDir = '../datas'
 
 function getSlug(string){
     const str = _.split(string,'/',10)[5]

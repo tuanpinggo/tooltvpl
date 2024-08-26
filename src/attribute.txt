@@ -1,4 +1,1000 @@
-doc_id,num_code,agency_id,effect,type,is_outstanding,date_issued,date_effective,date_published,sign_person_id,status_id,num_gazette
-
-1,35/NQ-HĐND,Tỉnh Đồng Nai,undefined,Nghị quyết,undefined,22/09/2022,22/09/2022,Đang cập nhật,Thái Bảo,Còn hiệu lực,undefined,undefined,undefined
-2,3689/QĐ-BQP,Bộ Quốc phòng,undefined,Quyết định,undefined,22/09/2022,22/09/2022,Đang cập nhật,Lê Huy Vịnh,Còn hiệu lực,undefined,undefined,undefined
+doc_id,num_code,agency_id,effect,type,is_outstanding,date_issued,date_effective,date_published,sign_person_id,status_id,num_gazette,created_at,updated_at
+1,35/NQ-HĐND,Tỉnh Đồng Nai,Còn hiệu lực,Nghị quyết,0,22/09/2022,22/09/2022,22/09/2022,Thái Bảo,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+2,3689/QĐ-BQP,Bộ Quốc phòng,Còn hiệu lực,Quyết định,0,22/09/2022,22/09/2022,22/09/2022,Lê Huy Vịnh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+3,1904/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,22/09/2022,22/09/2022,22/09/2022,Đặng Hoàng An,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+4,1521/QĐ-TCT,Tổng cục Thuế,Còn hiệu lực,Quyết định,0,22/09/2022,22/09/2022,22/09/2022,Cao Anh Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+5,1119/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,22/09/2022,22/09/2022,22/09/2022,Lê Văn Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+6,54/2022/QĐ-UBND,Thành phố Hải Phòng,Còn hiệu lực,Quyết định,0,22/09/2022,01/10/2022,22/09/2022,Nguyễn Văn Tùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+7,2863/QĐ-UBND,Tỉnh Nghệ An,Hết hiệu lực: 13/10/2023,Quyết định,0,22/09/2022,22/09/2022,22/09/2022,Hoàng Nghĩa Hiếu,Hết hiệu lực: 13/10/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+8,2354/QĐ-UBND,Tỉnh Kiên Giang,Còn hiệu lực,Quyết định,0,22/09/2022,22/09/2022,22/09/2022,Nguyễn Thanh Nhàn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+9,10/2022/TT-BYT,Bộ Y tế,Còn hiệu lực,Thông tư,0,22/09/2022,22/09/2022,22/09/2022,Đỗ Xuân Tuyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+10,58/2022/TT-BTC,Bộ Tài chính,Còn hiệu lực,Thông tư,0,22/09/2022,10/11/2022,22/09/2022,Võ Thành Hưng,Còn hiệu lực,20/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+11,6968/QĐ-BCA,Bộ Công An,Còn hiệu lực,Quyết định,0,22/09/2022,22/09/2022,22/09/2022,Tô Lâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+12,7359A/QĐ-NHCS,Ngân hàng Chính sách Xã hội,Còn hiệu lực,Quyết định,0,22/09/2022,22/09/2022,22/09/2022,Nguyễn Đức Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+13,1076/QĐ-CTN,Chủ tịch nước,Còn hiệu lực,Quyết định,0,22/09/2022,22/09/2022,22/09/2022,Nguyễn Xuân Phúc,Còn hiệu lực,05/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+14,68/2022/NĐ-CP,Chính phủ,Còn hiệu lực,Nghị định,0,22/09/2022,01/11/2022,22/09/2022,Phạm Bình Minh,Còn hiệu lực,01/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+15,46/2022/QĐ-UBND,Tỉnh Thừa Thiên Huế,Hết hiệu lực: 13/02/2023,Quyết định,0,22/09/2022,03/10/2022,22/09/2022,Phan Quý Phương,Hết hiệu lực: 13/02/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+16,23/2022/NQ-HĐND,Tỉnh Đồng Nai,Hết hiệu lực: 01/02/2023,Nghị quyết,0,22/09/2022,02/10/2022,22/09/2022,Thái Bảo,Hết hiệu lực: 01/02/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+17,19/2022/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,22/09/2022,10/11/2022,22/09/2022,Lê Minh Khái,Còn hiệu lực,02/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+18,125/NQ-CP,Chính phủ,Còn hiệu lực,Nghị quyết,0,22/09/2022,22/09/2022,22/09/2022,Lê Minh Khái,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+19,1897/QĐ-BKHCN,Bộ Khoa học và Công nghệ,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Lê Xuân Định,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+20,283/QĐ-TANDTC,Tòa án nhân dân tối cao,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Phạm Quốc Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+21,3196/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Văn Thi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+22,2593/QĐ-BYT,Bộ Y tế,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Thị Liên Hương,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+23,2167/KH-UBND,Tỉnh Gia Lai,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Thị Thanh Lịch,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+24,2594/QĐ-BYT,Bộ Y tế,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Thị Liên Hương,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+25,1537/QĐ-UBND,Tỉnh Lạng Sơn,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Lương Trọng Quỳnh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+26,963/QĐ-UBND,Tỉnh Bắc Giang,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Lê Ô Pích,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+27,46/2022/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,23/09/2022,10/10/2022,23/09/2022,Đỗ Minh Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+28,1973/QĐ-UBND,Tỉnh Sơn La,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Hoàng Quốc Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+29,2159/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+30,24/2022/QĐ-UBND,Tỉnh Cà Mau,Còn hiệu lực,Quyết định,0,23/09/2022,07/10/2022,23/09/2022,Huỳnh Quốc Việt,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+31,2160/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+32,6033/KH-UBND,Tỉnh Bến Tre,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Trần Ngọc Tam,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+33,6040/KH-UBND,Tỉnh Bến Tre,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Trần Ngọc Tam,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+34,274/CT-BVHTTDL,Bộ Văn hoá, Thể thao và du lịch,Còn hiệu lực,Chỉ thị,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Văn Hùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+35,24/2022/QĐ-UBND,Tỉnh Lạng Sơn,Còn hiệu lực,Quyết định,0,23/09/2022,10/10/2022,23/09/2022,Hồ Tiến Thiệu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+36,2162/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+37,3229/QĐ-UBND,Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,23/09/2022,23/12/2022,23/09/2022,Phan Văn Mãi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+38,237/KH-UBND,Tỉnh Sơn La,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Hoàng Quốc Khánh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+39,2880/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+40,1298/QĐ-UBND,Tỉnh Quảng Ngãi,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Đặng Văn Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+41,1304/QĐ-UBND,Tỉnh Quảng Ngãi,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Trần Hoàng Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+42,1223/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,23/09/2022,01/10/2022,23/09/2022,Nguyễn Văn Thể,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+43,236/KH-UBND,Tỉnh Sơn La,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Hoàng Quốc Khánh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+44,2477/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Lê Đức Tiến,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+45,159/KH-UBND,Tỉnh Hậu Giang,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Hồ Thu Ánh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+46,2478/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Võ Văn Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+47,3457/QĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Lê Hồng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+48,13/CT-UBND,Tỉnh Hải Dương,Còn hiệu lực,Chỉ thị,0,23/09/2022,23/09/2022,23/09/2022,Triệu Thế Hùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+49,2543/QĐ-UBND,Tỉnh Quảng Nam,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Trần Văn Tân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+50,47/2022/QĐ-UBND,Tỉnh Thừa Thiên Huế,Còn hiệu lực,Quyết định,0,23/09/2022,03/10/2022,23/09/2022,Phan Quý Phương,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+51,203/KH-UBND,Tỉnh Kiên Giang,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Thanh Nhàn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+52,130/KH-UBND,Tỉnh Bình Định,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Lâm Hải Giang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+53,824/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Trần Song Tùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+54,159/KH-UBND,Tỉnh Ninh Bình,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Tống Quang Thìn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+55,1656/QĐ-UBND,Tỉnh Yên Bái,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Ngô Hạnh Phúc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+56,202/KH-UBND,Tỉnh Yên Bái,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Thế Phước,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+57,7242/KH-UBND,Tỉnh Lâm Đồng,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Trần Văn Hiệp,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+58,2126/QĐ-UBND,Tỉnh Thái Bình,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Khắc Thận,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+59,68/NQ-HĐND,Tỉnh Khánh Hòa,Hết hiệu lực: 09/12/2022,Nghị quyết,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Khắc Toàn,Hết hiệu lực: 09/12/2022,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+60,2452/QĐ-BTNMT,Bộ Tài nguyên và Môi trường,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Trần Quý Kiên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+61,1762/QĐ-UBND,Tỉnh Điện Biên,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Phạm Đức Toàn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+62,2571/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+63,2516/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+64,2531/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+65,1760/QĐ-UBND,Tỉnh Điện Biên,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Phạm Đức Toàn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+66,15/2022/QĐ-UBND,Tỉnh Bắc Ninh,Còn hiệu lực,Quyết định,0,23/09/2022,15/10/2022,23/09/2022,Nguyễn Hương Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+67,55/2022/QĐ-UBND,Thành phố Hải Phòng,Còn hiệu lực,Quyết định,0,23/09/2022,05/10/2022,23/09/2022,Nguyễn Văn Tùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+68,11/CT-UBND,Tỉnh Đắk Lắk,Còn hiệu lực,Chỉ thị,0,23/09/2022,23/09/2022,23/09/2022,Y Giang Gry Niê Knơng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+69,12/2022/NQ-HĐND,Tỉnh Hà Giang,Còn hiệu lực,Nghị quyết,0,23/09/2022,05/10/2022,23/09/2022,Thào Hồng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+70,2293/QĐ-UBND,Tỉnh Thừa Thiên Huế,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Thanh Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+71,2142/QĐ-UBND,Tỉnh Đắk Lắk,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Y Giang Gry Niê Knơng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+72,174/KH-UBND,Tỉnh Bà Rịa - Vũng Tàu,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Lê Ngọc Khánh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+73,9061/KH-UBND,Tỉnh Khánh Hòa,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Đinh Văn Thiệu,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+74,09/2022/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,23/09/2022,23/09/2022,23/09/2022,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+75,10/2022/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực đến: 01/08/2027,Nghị quyết,0,23/09/2022,23/09/2022,23/09/2022,Trần Mạnh Dũng,Còn hiệu lực đến: 01/08/2027,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+76,321/KH-UBND,Tỉnh Lào Cai,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Hoàng Quốc Khánh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+77,75/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,23/09/2022,23/09/2022,23/09/2022,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+78,76/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,23/09/2022,23/09/2022,23/09/2022,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+79,366/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+80,69/2022/ND-CP,Chính phủ,Còn hiệu lực,Nghị định,0,23/09/2022,30/10/2022,23/09/2022,Lê Văn Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+81,43/2022/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,23/09/2022,10/10/2022,23/09/2022,Tống Quang Thìn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+82,1761/QĐ-UBND,Tỉnh Điện Biên,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Phạm Đức Toàn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+83,1125/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Lê Văn Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+84,16/2022/QĐ-UBND,Tỉnh Bắc Ninh,Còn hiệu lực,Quyết định,0,23/09/2022,15/10/2022,23/09/2022,Nguyễn Hương Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+85,06/2022/TT-BVHTTDL,Bộ Văn hoá, Thể thao và du lịch,Còn hiệu lực,Thông tư,0,23/09/2022,01/01/2023,23/09/2022,Nguyễn Văn Hùng,Còn hiệu lực,29/01/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+86,3592/QĐ-BNN-BVTV,Bộ Nông nghiệp và Phát triển nông thôn,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Lê Quốc Doanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+87,69/2022/NĐ-CP,Chính phủ,Còn hiệu lực,Nghị định,0,23/09/2022,30/10/2022,23/09/2022,Lê Văn Thành,Còn hiệu lực,02/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+88,270/KH-UBND,Tỉnh Bình Phước,Không xác định,Kế hoạch,0,23/09/2022,23/09/2022,23/09/2022,Trần Tuyết Minh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+89,572/QĐ-QLD,Cục Quản lý dược,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Vũ Tuấn Cường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+90,2270/QĐ-UBND,Tỉnh Thái Nguyên,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Lê Quang Tiến,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+91,1905/QĐ-BKHCN,Bộ Khoa học và Công nghệ,Hết hiệu lực: 29/09/2023,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Bùi Thế Duy,Hết hiệu lực: 29/09/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+92,2340/QĐ-UBND,Tỉnh Bình Dương,Hết hiệu lực: 05/06/2023,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Võ Văn Minh,Hết hiệu lực: 05/06/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+93,19/2022/QĐ-UBND,Tỉnh Bà Rịa - Vũng Tàu,Còn hiệu lực,Quyết định,0,23/09/2022,06/10/2022,23/09/2022,Nguyễn Công Vinh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+94,11/2022/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,23/09/2022,04/10/2022,23/09/2022,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+95,573/QĐ-QLD,Cục Quản lý dược,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Vũ Tuấn Cường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+96,09/VBHN-BCT,Bộ Công thương,Còn hiệu lực,Văn bản hợp nhất,0,23/09/2022,23/09/2022,23/09/2022,Nguyễn Hồng Diên,Còn hiệu lực,08/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+97,1122/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Vũ Đức Đam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+98,1124/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Vũ Đức Đam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+99,12/2022/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,23/09/2022,04/10/2022,23/09/2022,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+100,3101/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Lâm Hải Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+101,15/2022/NQ-HĐND,Tỉnh Hà Giang,Hết hiệu lực: 23/10/2023,Nghị quyết,0,23/09/2022,05/10/2022,23/09/2022,Thào Hồng Sơn,Hết hiệu lực: 23/10/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+102,14/2022/NQ-HĐND,Tỉnh Hà Giang,Hết hiệu lực: 20/12/2023,Nghị quyết,0,23/09/2022,05/10/2022,23/09/2022,Thào Hồng Sơn,Hết hiệu lực: 20/12/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+103,13/2022/NQ-HĐND,Tỉnh Hà Giang,Hết hiệu lực: 22/10/2023,Nghị quyết,0,23/09/2022,05/10/2022,23/09/2022,Thào Hồng Sơn,Hết hiệu lực: 22/10/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+104,11/2022/NQ-HĐND,Tỉnh Hà Giang,Hết hiệu lực: 22/10/2023,Nghị quyết,0,23/09/2022,05/10/2022,23/09/2022,Thào Hồng Sơn,Hết hiệu lực: 22/10/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+105,1724/QĐ-UBND,Tỉnh Lâm Đồng,Còn hiệu lực,Quyết định,0,23/09/2022,23/09/2022,23/09/2022,Trần Văn Hiệp,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+106,1218/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,23/09/2022,01/10/2022,23/09/2022,Nguyễn Văn Thể,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+107,13/2022/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,23/09/2022,04/10/2022,23/09/2022,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+108,29/CĐ-QG,Ủy ban Quốc gia ứng phó sự cố, thiên tai và tìm kiếm cứu nạn,,Còn hiệu lực,Công điện,0,24/09/2022,24/09/2022,24/09/2022,Nguyễn Hoàng Hiệp,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+109,298/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,24/09/2022,24/09/2022,24/09/2022,Nguyễn Cao Lục,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+110,654/KH-UBND,Tỉnh Nghệ An,Không xác định,Kế hoạch,0,24/09/2022,24/09/2022,24/09/2022,Bùi Đình Long,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+111,180/KH-UBND,Tỉnh Tuyên Quang,Không xác định,Kế hoạch,0,24/09/2022,24/09/2022,24/09/2022,Hoàng Việt Phương,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+112,2169/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,24/09/2022,24/09/2022,24/09/2022,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+113,2888/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,24/09/2022,24/09/2022,24/09/2022,Bùi Đình Long,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+114,728/QĐ-BNV,Bộ Nội vụ,Còn hiệu lực,Quyết định,0,24/09/2022,24/09/2022,24/09/2022,Vũ Chiến Thắng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+115,727/QĐ-BNV,Bộ Nội vụ,Còn hiệu lực,Quyết định,0,24/09/2022,24/09/2022,24/09/2022,Vũ Chiến Thắng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+116,28/2022/UBTVQH15,Uỷ ban Thường vụ Quốc hội,Còn hiệu lực,Nghị quyết,0,24/09/2022,24/09/2022,24/09/2022,Vương Đình Huệ,Còn hiệu lực,10/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+117,1386/QĐ-UBND,Tỉnh Tuyên Quang,Còn hiệu lực,Quyết định,0,25/09/2022,25/09/2022,25/09/2022,Nguyễn Văn Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+118,4177/KH-UBND,Tỉnh Ninh Thuận,Không xác định,Kế hoạch,0,25/09/2022,25/09/2022,25/09/2022,Lê Huyền,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+119,1260/CĐ-BYT,Bộ Y tế,Còn hiệu lực,Công điện,0,25/09/2022,25/09/2022,25/09/2022,Nguyễn Trường Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+120,855/CĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Công điện,0,25/09/2022,25/09/2022,25/09/2022,Lê Văn Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+121,300/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,25/09/2022,25/09/2022,25/09/2022,Nguyễn Cao Lục,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+122,1126/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,25/09/2022,25/09/2022,25/09/2022,Lê Minh Khái,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+123,55/2022/QĐ-UBND,Tỉnh Ninh Thuận,Còn hiệu lực,Quyết định,0,25/09/2022,05/10/2022,25/09/2022,Trần Quốc Nam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+124,201/KH-UBND,Tỉnh Lạng Sơn,Không xác định,Kế hoạch,0,25/09/2022,25/09/2022,25/09/2022,Dương Xuân Huyên,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+125,2451/KH-UBND,Tỉnh Cao Bằng,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Hoàng Xuân Ánh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+126,2452/KH-UBND,Tỉnh Cao Bằng,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Hoàng Xuân Ánh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+127,1545/QĐ-UBND,Tỉnh Lạng Sơn,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Dương Xuân Huyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+128,1127/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Vũ Đức Đam,Còn hiệu lực,04/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+129,1918/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Sinh Nhật Tân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+130,1919/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Đặng Hoàng An,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+131,240/KH-UBND,Tỉnh Hà Giang,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Trần Đức Quý,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+132,06/CT-UBND,Thành phố Cần Thơ,Còn hiệu lực,Chỉ thị,0,26/09/2022,26/09/2022,26/09/2022,Trần Việt Trường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+133,201/KH-UBND,Thành phố Cần Thơ,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Trần Việt Trường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+134,1960/QĐ-BTC,Bộ Tài chính,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Hồ Đức Phớc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+135,2371/QĐ-UBND,Tỉnh Kiên Giang,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Lê Quốc Anh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+136,1267/QĐ-UBND,Tỉnh Lai Châu,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Hà Trọng Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+137,35/2022/QĐ-UBND,Tỉnh Lai Châu,Còn hiệu lực,Quyết định,0,26/09/2022,15/10/2022,26/09/2022,Hà Trọng Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+138,591/QĐ-UBND,Tỉnh Kon Tum,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Lê Ngọc Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+139,1234/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,26/09/2022,01/10/2022,26/09/2022,Nguyễn Văn Thể,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+140,1959/QĐ-BTC,Bộ Tài chính,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Hồ Đức Phớc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+141,1961/QĐ-BTC,Bộ Tài chính,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Hồ Đức Phớc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+142,3234/QĐ-UBND,Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Phan Văn Mãi,Còn hiệu lực,15/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+143,1541/QĐ-UBND,Tỉnh Lạng Sơn,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Dương Xuân Huyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+144,1542/QĐ-UBND,Tỉnh Lạng Sơn,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Dương Xuân Huyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+145,202/KH-UBND,Tỉnh Lạng Sơn,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Hồ Tiến Thiệu,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+146,3509/QĐ-UBND,Thành phố Cần Thơ,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Trần Việt Trường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+147,25/2022/QĐ-UBND,Tỉnh Cà Mau,Còn hiệu lực,Quyết định,0,26/09/2022,10/10/2022,26/09/2022,Huỳnh Quốc Việt,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+148,3750/KH-UBND,Tỉnh Phú Thọ,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Thanh Hải,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+149,2483/QĐ-BTNMT,Bộ Tài nguyên và Môi trường,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Lê Công Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+150,232/KH-UBND,Tỉnh Quảng Ninh,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Phạm Văn Thành,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+151,28/2022/QĐ-UBND,Tỉnh Quảng Ninh,Còn hiệu lực,Quyết định,0,26/09/2022,15/10/2022,26/09/2022,Phạm Văn Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+152,1800/QĐ-UBND,Tỉnh Bắc Kạn,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Đinh Quang Tuyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+153,3119/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Tuấn Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+154,3120/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Tuấn Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+155,3121/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Tuấn Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+156,3122/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Tuấn Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+157,34/2022/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,26/09/2022,10/10/2022,26/09/2022,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+158,36/2022/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,26/09/2022,10/10/2022,26/09/2022,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+159,35/2022/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,26/09/2022,10/10/2022,26/09/2022,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+160,1894/QĐ-UBND,Tỉnh Trà Vinh,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Lê Thanh Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+161,12-NQ/TU,Thành ủy Thành phố Hồ Chí Minh,Còn hiệu lực,Nghị quyết,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Văn Nên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+162,31/2022/QĐ-UBND,Tỉnh Phú Yên,Còn hiệu lực,Quyết định,0,26/09/2022,10/10/2022,26/09/2022,Hồ Thị Nguyên Thảo,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+163,26/2022/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,26/09/2022,06/10/2022,26/09/2022,Võ Văn Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+164,240/KH-UBND,Tỉnh Vĩnh Phúc,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Lê Duy Thành,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+165,239/KH-UBND,Tỉnh Hà Giang,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Văn Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+166,186/KH-UBND,Tỉnh Đắk Lắk,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Y Giang Gry Niê Knơng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+167,187/KH-UBND,Tỉnh Đắk Lắk,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Y Giang Gry Niê Knơng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+168,2521/QĐ-UBND,Tỉnh Sóc Trăng,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Vương Quốc Nam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+169,1772/QĐ-UBND,Tỉnh Điện Biên,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Lò Văn Tiến,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+170,3196/KH-UBND,Tỉnh Bình Thuận,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Văn Phong,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+171,373/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+172,184/KH-UBND,Tỉnh Cà Mau,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Huỳnh Quốc Việt,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+173,139/KH-UBND,Tỉnh Thái Nguyên,Không xác định,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Lê Quang Tiến,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+174,574/QĐ-QLD,Cục Quản lý dược,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Vũ Tuấn Cường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+175,575/QĐ-QLD,Cục Quản lý dược,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Vũ Tuấn Cường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+176,1930/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Sinh Nhật Tân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+177,1928/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Đặng Hoàng An,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+178,1134/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Lê Văn Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+179,1129/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Lê Văn Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+180,02/2022/TT-BXD,Bộ Xây dựng,Còn hiệu lực,Thông tư,0,26/09/2022,26/03/2023,26/09/2022,Lê Quang Hùng,Còn hiệu lực,15/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+181,3138/QĐ-UBND,Thành phố Hải Phòng,Hết hiệu lực: 10/07/2023,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Văn Tùng,Hết hiệu lực: 10/07/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+182,303/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Cao Lục,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+183,302/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Cao Lục,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+184,590/QĐ-UBND,Tỉnh Kon Tum,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Lê Ngọc Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+185,3501/QĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Hà Minh Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+186,304/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Cao Lục,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+187,2285/QĐ-UBND,Tỉnh Thái Nguyên,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Lê Quang Tiến,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+188,12/VBHN-BTTTT,Bộ Thông tin và Truyền thông,Còn hiệu lực,Văn bản hợp nhất,0,26/09/2022,26/09/2022,26/09/2022,Nguyễn Mạnh Hùng,Còn hiệu lực,08/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+189,51/VBHN-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Văn bản hợp nhất,0,26/09/2022,26/09/2022,26/09/2022,Lê Anh Tuấn,Còn hiệu lực,25/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+190,28/2022/QĐ-UBND,Thành phố Cần Thơ,Còn hiệu lực,Quyết định,0,26/09/2022,15/10/2022,26/09/2022,Trần Việt Trường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+191,5713/KH-UBND,Huyện Cần Giờ,Không còn phù hợp,Kế hoạch,0,26/09/2022,26/09/2022,26/09/2022,Trương Tiến Triển,Không còn phù hợp,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+192,84-QĐ/TW,Ban Chấp hành Trung ương,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Võ Văn Thưởng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+193,3237/QĐ-UBND,Thành phố Hồ Chí Minh,Hết hiệu lực: 26/03/2024,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Phan Văn Mãi,Hết hiệu lực: 26/03/2024,15/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+194,52/VBHN-BGTVT,Bộ Giao thông vận tải,Không còn phù hợp,Văn bản hợp nhất,0,26/09/2022,26/09/2022,26/09/2022,Lê Anh Tuấn,Không còn phù hợp,27/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+195,53/VBHN-BGTVT,Bộ Giao thông vận tải,Hết hiệu lực: 01/07/2024,Văn bản hợp nhất,0,26/09/2022,26/09/2022,26/09/2022,Lê Anh Tuấn,Hết hiệu lực: 01/07/2024,25/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+196,3497/QĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Quyết định,0,26/09/2022,26/09/2022,26/09/2022,Lê Hồng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+197,12/CT-UBND,Tỉnh Hưng Yên,Còn hiệu lực,Chỉ thị,0,27/09/2022,27/09/2022,27/09/2022,Trần Quốc Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+198,1245/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,27/09/2022,01/10/2022,27/09/2022,Nguyễn Văn Thể,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+199,3133/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Lâm Hải Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+200,1283/QĐ-UBND,Tỉnh Lai Châu,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Tống Thanh Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+201,497/QĐ-UBND,Tỉnh Gia Lai,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Đỗ Tiến Đông,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+202,498/QĐ-UBND,Tỉnh Gia Lai,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Đỗ Tiến Đông,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+203,499/QĐ-UBND,Tỉnh Gia Lai,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Đỗ Tiến Đông,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+204,6131/KH-UBND,Tỉnh Bến Tre,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Minh Cảnh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+205,07/CT-UBND,Thành phố Cần Thơ,Còn hiệu lực,Chỉ thị,0,27/09/2022,27/09/2022,27/09/2022,Trần Việt Trường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+206,1809/QĐ-UBND,Tỉnh Bắc Kạn,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Đăng Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+207,2004/QĐ-UBND,Tỉnh Sơn La,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Thành Công,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+208,27/2022/QĐ-UBND,Tỉnh Bình Dương,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Mai Hùng Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+209,1244/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Duy Lâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+210,1986/QĐ-UBND,Tỉnh Vĩnh Long,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Lê Quang Trung,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+211,27/2022/QĐ-UBND,Tỉnh Vĩnh Long,Còn hiệu lực,Quyết định,0,27/09/2022,07/10/2022,27/09/2022,Lữ Quang Ngời,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+212,250/KH-UBND,Thành phố Hà Nội,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Chử Xuân Dũng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+213,251/KH-UBND,Thành phố Hà Nội,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Chử Xuân Dũng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+214,254/KH-UBND,Thành phố Hà Nội,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Dương Đức Tuấn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+215,24/NQ-HĐND,Tỉnh Lạng Sơn,Còn hiệu lực,Nghị quyết,0,27/09/2022,27/09/2022,27/09/2022,Đoàn Thị Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+216,25/NQ-HĐND,Tỉnh Lạng Sơn,Còn hiệu lực,Nghị quyết,0,27/09/2022,27/09/2022,27/09/2022,Đoàn Thị Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+217,33/2022/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Phan Trọng Tấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+218,204/KH-UBND,Tỉnh Yên Bái,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Trần Huy Tuấn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+219,2618/QĐ-UBND,Tỉnh Quảng Bình,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Đoàn Ngọc Lâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+220,2619/QĐ-UBND,Tỉnh Quảng Bình,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Hồ An Phong,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+221,28/2022/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+222,30/2022/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+223,3162/QĐ-UBND,Thành phố Hải Phòng,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Văn Tùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+224,31/2022/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+225,32/2022/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+226,2773/QĐ-BGDĐT,Bộ Giáo dục và Đào tạo,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Hữu Độ,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+227,1946/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Sinh Nhật Tân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+228,14/CT-UBND,Tỉnh Phú Yên,Còn hiệu lực,Chỉ thị,0,27/09/2022,27/09/2022,27/09/2022,Trần Hữu Thế,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+229,70/2022/ND-CP,Chính phủ,Còn hiệu lực,Nghị định,0,27/09/2022,01/11/2022,27/09/2022,Lê Văn Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+230,2170/QĐ-UBND,Tỉnh Đắk Lắk,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Tuấn Hà,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+231,26/2022/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+232,27/2022/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+233,2376/QĐ-UBND,Tỉnh Bình Dương,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Mai Hùng Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+234,243/KH-UBND,Quận 5,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Trương Minh Kiều,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+235,3242/QĐ-UBND,Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Võ Văn Hoan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+236,42/2022/QĐ-UBND,Tỉnh Đồng Nai,Còn hiệu lực,Quyết định,0,27/09/2022,07/10/2022,27/09/2022,Cao Tiến Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+237,134/KH-UBND,Tỉnh Sóc Trăng,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Huỳnh Thị Diễm Ngọc,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+238,523/NQ-HĐND,Tỉnh Quảng Ninh,Còn hiệu lực,Nghị quyết,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Xuân Ký,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+239,3461/KH-UBND,Thành phố Hồ Chí Minh,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Võ Văn Hoan,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+240,29/2022/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+241,31/2022/QĐ-UBND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Nguyễn Văn Khước,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+242,32/2022/QĐ-UBND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Quyết định,0,27/09/2022,03/10/2022,27/09/2022,Lê Duy Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+243,205/KH-UBND,Tỉnh Đồng Nai,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Thị Hoàng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+244,242/KH-UBND,Tỉnh Vĩnh Phúc,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Vũ Chí Giang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+245,252/KH-UBNDTPHN-UBNDHY-UBNDBN,Thành phố Hà Nội, Tỉnh Hưng Yên, Tỉnh Bắc Ninh,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Trần Sỹ Thanh, Trần Quốc Văn, Ngô Tân Phượng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+246,2801/KH-UBND,Tỉnh Hải Dương,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Minh Hùng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+247,2805/KH-UBND,Tỉnh Hải Dương,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Minh Hùng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+248,241/KH-UBND,Tỉnh Vĩnh Phúc,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Văn Khước,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+249,1987/QĐ-UBND,Tỉnh Vĩnh Long,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Lê Quang Trung,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+250,6348/KH-UBND,Tỉnh Quảng Nam,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Lê Trí Thanh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+251,162/KH-UBND,Tỉnh Hưng Yên,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Đặng Ngọc Quỳnh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+252,176/KH-UBND,Tỉnh Bà Rịa - Vũng Tàu,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Lê Ngọc Khánh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+253,208/KH-UBND,Tỉnh Kiên Giang,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Lê Quốc Anh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+254,972/QĐ-UBND,Tỉnh Bắc Giang,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Mai Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+255,441/KH-UBND,Tỉnh Bắc Ninh,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Hương Giang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+256,131/KH-UBND,Tỉnh Bình Định,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Lâm Hải Giang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+257,1779/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Trần Tuệ Hiền,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+258,1781/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Trần Tuệ Hiền,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+259,375/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+260,44/2022/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Nguyễn Cao Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+261,2378/QĐ-UBND,Tỉnh Bình Dương,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Mai Hùng Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+262,2382/QĐ-UBND,Tỉnh Bình Dương,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Mai Hùng Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+263,2448/QĐ-UBND,Tỉnh Cà Mau,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Lê Văn Sử,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+264,2478/KH-UBND,Tỉnh Cao Bằng,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Lê Hải Hòa,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+265,843/QĐ-BCĐCĐS,Bộ Xây dựng,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Thanh Nghị,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+266,19/2022/NQ-HĐND,Tỉnh Lạng Sơn,Còn hiệu lực,Nghị quyết,0,27/09/2022,10/10/2022,27/09/2022,Đoàn Thị Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+267,17/2022/NQ-HĐND,Tỉnh Lạng Sơn,Còn hiệu lực,Nghị quyết,0,27/09/2022,10/10/2022,27/09/2022,Đoàn Thị Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+268,135/KH-UBND,Tỉnh Sóc Trăng,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Huỳnh Thị Diễm Ngọc,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+269,136/KH-UBND,Tỉnh Sóc Trăng,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Huỳnh Thị Diễm Ngọc,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+270,2374/QĐ-BVHTTDL,Bộ Văn hoá, Thể thao và du lịch,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Trịnh Thị Thủy,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+271,03/2022/TT-BXD,Bộ Xây dựng,Còn hiệu lực,Thông tư,0,27/09/2022,11/11/2022,27/09/2022,Nguyễn Thanh Nghị,Còn hiệu lực,16/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+272,4007/TB-TCHQ,Tổng cục Hải quan,Không xác định,Thông báo,0,27/09/2022,27/09/2022,27/09/2022,Lưu Mạnh Tưởng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+273,4006/TB-TCHQ,Tổng cục Hải quan,Không xác định,Thông báo,0,27/09/2022,27/09/2022,27/09/2022,Lưu Mạnh Tưởng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+274,4008/TB-TCHQ,Tổng cục Hải quan,Không xác định,Thông báo,0,27/09/2022,27/09/2022,27/09/2022,Lưu Mạnh Tưởng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+275,3528/KH-SGDĐT,Sở Giáo dục và Đào tạo Thành phố Hồ Chí Minh,Không xác định,Kế hoạch,0,27/09/2022,27/09/2022,27/09/2022,Nguyễn Văn Hiếu,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+276,2917/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,27/09/2022,27/09/2022,27/09/2022,Lê Hồng Vinh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+277,29/2022/QĐ-UBND,Thành phố Cần Thơ,Hết hiệu lực: 20/09/2023,Quyết định,0,27/09/2022,14/10/2022,27/09/2022,Trần Việt Trường,Hết hiệu lực: 20/09/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+278,47/2022/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,27/09/2022,10/10/2022,27/09/2022,Lê Đức Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+279,70/2022/NĐ-CP,Chính phủ,Còn hiệu lực,Nghị định,0,27/09/2022,01/11/2022,27/09/2022,Lê Văn Thành,Còn hiệu lực,08/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+280,18/2022/NQ-HĐND,Tỉnh Lạng Sơn,Hết hiệu lực: 20/12/2023,Nghị quyết,0,27/09/2022,10/10/2022,27/09/2022,Đoàn Thị Hậu,Hết hiệu lực: 20/12/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+281,20/2022/NQ-HĐND,Tỉnh Lạng Sơn,Hết hiệu lực: 05/07/2024,Nghị quyết,0,27/09/2022,27/09/2022,27/09/2022,Đoàn Thị Hậu,Hết hiệu lực: 05/07/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+282,126/NQ-CP,Chính phủ,Còn hiệu lực,Nghị quyết,0,27/09/2022,27/09/2022,27/09/2022,Phạm Minh Chính,Còn hiệu lực,10/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+283,127/NQ-CP,Chính phủ,Còn hiệu lực,Nghị quyết,0,27/09/2022,27/09/2022,27/09/2022,Lê Minh Khái,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+284,1759/QĐ-UBND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Vũ Việt Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+285,05/CĐ-BTC,Bộ Tài chính,Còn hiệu lực,Công điện,0,28/09/2022,28/09/2022,28/09/2022,Hồ Đức Phớc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+286,46/2022/QĐ-UBND,Tỉnh Hà Nam,Còn hiệu lực,Quyết định,0,28/09/2022,15/10/2022,28/09/2022,Trương Quốc Huy,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+287,2079/QĐ-UBND,Tỉnh Hòa Bình,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Bùi Văn Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+288,2632/QĐ-UBND,Tỉnh Quảng Bình,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Đoàn Ngọc Lâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+289,308/TB-VPCP,Văn phòng Chính phủ,Hết hiệu lực: 30/09/2022,Thông báo,0,28/09/2022,28/09/2022,28/09/2022,Trần Văn Sơn,Hết hiệu lực: 30/09/2022,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+290,4233/KH-UBND,Tỉnh Ninh Thuận,Không xác định,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Long Biên,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+291,3259/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Đỗ Minh Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+292,32/2022/QĐ-UBND,Tỉnh Nam Định,Còn hiệu lực,Quyết định,0,28/09/2022,10/10/2022,28/09/2022,Phạm Đình Nghị,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+293,607/QĐ-UBND,Tỉnh Kon Tum,Hết hiệu lực: 12/01/2023,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Lê Ngọc Tuấn,Hết hiệu lực: 12/01/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+294,10/2022/QĐ-UBND,Tỉnh Hải Dương,Còn hiệu lực,Quyết định,0,28/09/2022,10/10/2022,28/09/2022,Lưu Văn Bản,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+295,47/2022/QĐ-UBND,Tỉnh Hà Nam,Còn hiệu lực,Quyết định,0,28/09/2022,15/10/2022,28/09/2022,Trương Quốc Huy,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+296,2214/QĐ-UBND,Tỉnh Hưng Yên,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Trần Quốc Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+297,23/CT-UBND,Tỉnh Nghệ An,Còn hiệu lực,Chỉ thị,0,28/09/2022,28/09/2022,28/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+298,255/KH-UBND,Thành phố Hà Nội,Không xác định,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Hà Minh Hải,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+299,3531/QĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Chử Xuân Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+300,2561/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Hồ Đại Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+301,3807/KH-UBND,Tỉnh Phú Thọ,Không xác định,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Bùi Văn Quang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+302,1688/QĐ-UBND,Tỉnh Yên Bái,Hết hiệu lực: 06/01/2023,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Ngô Hạnh Phúc,Hết hiệu lực: 06/01/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+303,19/2022/QĐ-UBND,Tỉnh Yên Bái,Còn hiệu lực,Quyết định,0,28/09/2022,10/10/2022,28/09/2022,Trần Huy Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+304,2510/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Võ Văn Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+305,3671/QĐ-BNN-KTHT,Bộ Nông nghiệp và Phát triển nông thôn,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Trần Thanh Nam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+306,2185/QĐ-UBND,Tỉnh Đắk Lắk,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Y Giang Gry Niê Knơng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+307,2616/QĐ-UBND,Tỉnh Đồng Nai,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Võ Văn Phi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+308,2796/QĐ-UBND,Tỉnh Quảng Ninh,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Bùi Văn Khắng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+309,43/2022/QĐ-UBND,Tỉnh Đồng Nai,Còn hiệu lực,Quyết định,0,28/09/2022,08/10/2022,28/09/2022,Võ Tấn Đức,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+310,2930/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Lê Hồng Vinh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+311,661/KH-UBND,Tỉnh Nghệ An,Không xác định,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Bùi Đình Long,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+312,377/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+313,1921/QĐ-UBND,Tỉnh Trà Vinh,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Lê Thanh Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+314,324/KH-UBND,Tỉnh Đồng Tháp,Không xác định,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Huỳnh Minh Tuấn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+315,244/KH-UBND,Tỉnh Vĩnh Phúc,Không xác định,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Vũ Việt Văn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+316,1990/QĐ-UBND,Tỉnh Vĩnh Long,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Lê Quang Trung,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+317,2215/QĐ-UBND,Tỉnh Hưng Yên,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Trần Quốc Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+318,209/KH-UBND,Tỉnh Kiên Giang,Không xác định,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Lâm Minh Thành,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+319,2400/QĐ-UBND,Tỉnh Kiên Giang,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Thanh Nhàn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+320,2401/QĐ-UBND,Tỉnh Kiên Giang,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Thanh Nhàn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+321,19/2022/QĐ-UBND,Tỉnh Khánh Hòa,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Tấn Tuân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+322,2699/QĐ-UBND,Tỉnh Khánh Hòa,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Lê Hữu Hoàng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+323,2700/QĐ-UBND,Tỉnh Khánh Hòa,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Đinh Văn Thiệu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+324,9192/KH-UBND,Tỉnh Khánh Hòa,Không xác định,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Tấn Tuân,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+325,2984/QĐ-UBND,Tỉnh Bắc Giang,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Mai Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+326,13/2022/TT-BNNPTNT,Bộ Nông nghiệp và Phát triển nông thôn,Còn hiệu lực,Thông tư,0,28/09/2022,12/11/2022,28/09/2022,Phùng Đức Tiến,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+327,3148/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Tự Công Hoàng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+328,3149/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Tự Công Hoàng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+329,132/KH-UBND,Tỉnh Bình Định,Không xác định,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Tự Công Hoàng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+330,1786/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Trần Tuyết Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+331,1787/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Trần Tuyết Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+332,1790/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Trần Tuyết Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+333,2931/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+334,48/2022/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,28/09/2022,10/10/2022,28/09/2022,Phạm Quang Ngọc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+335,49/2022/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,28/09/2022,10/10/2022,28/09/2022,Phạm Quang Ngọc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+336,46/2022/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,28/09/2022,10/10/2022,28/09/2022,Phạm Quang Ngọc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+337,5053/KH-UBND,Tỉnh Bình Dương,Không xác định,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Lộc Hà,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+338,45/2022/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,28/09/2022,10/10/2022,28/09/2022,Phạm Quang Ngọc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+339,47/2022/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,28/09/2022,10/10/2022,28/09/2022,Phạm Quang Ngọc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+340,8986/QĐ-UBND,Tỉnh Long An,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Văn Út,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+341,1776/QĐ-SXD-KTXD,Sở Xây dựng Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Lê Trần Kiên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+342,26/2022/QĐ-UBND,Tỉnh Trà Vinh,Còn hiệu lực,Quyết định,0,28/09/2022,07/10/2022,28/09/2022,Lê Văn Hẳn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+343,1251/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,28/09/2022,01/10/2022,28/09/2022,Nguyễn Văn Thể,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+344,1254/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Xuân Sang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+345,353/BC-CP,Chính phủ,Không xác định,Báo cáo,0,28/09/2022,28/09/2022,28/09/2022,Đào Hồng Lan,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+346,4059/TB-TCHQ,Tổng cục Hải quan,Không xác định,Thông báo,0,28/09/2022,28/09/2022,28/09/2022,Lưu Mạnh Tưởng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+347,4056/TB-TCHQ,Tổng cục Hải quan,Không xác định,Thông báo,0,28/09/2022,28/09/2022,28/09/2022,Lưu Mạnh Tưởng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+348,4040/TB-TCHQ,Tổng cục Hải quan,Không xác định,Thông báo,0,28/09/2022,28/09/2022,28/09/2022,Lưu Mạnh Tưởng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+349,464/TB-TCT,Tổng cục Thuế,Không xác định,Thông báo,0,28/09/2022,28/09/2022,28/09/2022,Phạm Quang Toàn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+350,1784/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Trần Tuyết Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+351,3144/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Lâm Hải Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+352,13/2022/TT-BNNPTNT,Bộ Nông nghiệp và Phát triển nông thôn,Còn hiệu lực,Thông tư,0,28/09/2022,12/11/2022,28/09/2022,Phùng Đức Tiến,Còn hiệu lực,10/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+353,1541/QĐ-TCT,Tổng cục Thuế,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Cao Anh Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+354,2777/QĐ-BGDĐT,Bộ Giáo dục và Đào tạo,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Phạm Ngọc Thưởng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+355,2216/QĐ-UBND,Tỉnh Hưng Yên,Hết hiệu lực: 06/04/2023,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Duy Hưng,Hết hiệu lực: 06/04/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+356,3579/KH-SGDĐT,Sở Giáo dục và Đào tạo Thành phố Hồ Chí Minh,Không còn phù hợp,Kế hoạch,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Văn Hiếu,Không còn phù hợp,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+357,1996/QĐ-UBND,Tỉnh Hà Tĩnh,Hết hiệu lực: 20/09/2023,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Đặng Ngọc Sơn,Hết hiệu lực: 20/09/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+358,20/2022/QĐ-UBND,Tỉnh Yên Bái,Còn hiệu lực,Quyết định,0,28/09/2022,08/10/2022,28/09/2022,Trần Huy Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+359,2694/QĐ-UBND,Tỉnh Khánh Hòa,Hết hiệu lực: 07/05/2024,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Tấn Tuân,Hết hiệu lực: 07/05/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+360,1248/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,28/09/2022,01/10/2022,28/09/2022,Nguyễn Văn Thể,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+361,1255/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,28/09/2022,01/10/2022,28/09/2022,Nguyễn Văn Thể,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+362,1247/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,28/09/2022,01/10/2022,28/09/2022,Nguyễn Văn Thể,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+363,1246/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,28/09/2022,01/10/2022,28/09/2022,Nguyễn Văn Thể,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+364,1957/QĐ-BCT,Bộ Công thương,Hết hiệu lực: 03/06/2024,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Nguyễn Sinh Nhật Tân,Hết hiệu lực: 03/06/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+365,1916/QĐ-UBND,Tỉnh Trà Vinh,Còn hiệu lực,Quyết định,0,28/09/2022,28/09/2022,28/09/2022,Lê Văn Hẳn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+366,609/NQ-UBTVQH15,Uỷ ban Thường vụ Quốc hội,Còn hiệu lực,Nghị quyết,0,28/09/2022,28/09/2022,28/09/2022,Vương Đình Huệ,Còn hiệu lực,10/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+367,610/NQ-UBTVQH15,Uỷ ban Thường vụ Quốc hội,Còn hiệu lực,Nghị quyết,0,28/09/2022,28/09/2022,28/09/2022,Vương Đình Huệ,Còn hiệu lực,10/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+368,33/2022/QĐ-UBND,Tỉnh Tiền Giang,Hết hiệu lực: 01/08/2024,Quyết định,0,28/09/2022,14/10/2022,28/09/2022,Nguyễn Thành Diệu,Hết hiệu lực: 01/08/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+369,33/2022/QĐ-UBND,Tỉnh Bắc Kạn,Còn hiệu lực,Quyết định,0,29/09/2022,09/10/2022,29/09/2022,Nguyễn Đăng Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+370,35/2022/QĐ-UBND,Tỉnh Bắc Giang,Còn hiệu lực,Quyết định,0,29/09/2022,15/10/2022,29/09/2022,Phan Thế Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+371,2400/QĐ-BVHTTDL,Bộ Văn hoá, Thể thao và du lịch,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Hoàng Đạo Cương,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+372,2209/KH-UBND,Tỉnh Gia Lai,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Kpă Thuyên,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+373,309/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Xuân Thành,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+374,32/2022/QĐ-UBND,Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,29/09/2022,10/10/2022,29/09/2022,Phan Văn Mãi,Còn hiệu lực,01/11/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+375,1971/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Đỗ Thắng Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+376,3277/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Văn Thi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+377,4809/KH-UBND,Tỉnh Bắc Giang,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Lê Ô Pích,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+378,871/CĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Công điện,0,29/09/2022,29/09/2022,29/09/2022,Phạm Bình Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+379,202/KH-UBND,Thành phố Cần Thơ,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Trần Việt Trường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+380,1628/QĐ-UBND,Tỉnh Bạc Liêu,Hết hiệu lực: 10/02/2023,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Phạm Văn Thiều,Hết hiệu lực: 10/02/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+381,2006/QĐ-UBND,Tỉnh Tây Ninh,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Võ Đức Trong,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+382,26/2022/QĐ-UBND,Tỉnh Cà Mau,Còn hiệu lực,Quyết định,0,29/09/2022,10/10/2022,29/09/2022,Lâm Văn Bi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+383,3169/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Lâm Hải Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+384,1627/QĐ-UBND,Tỉnh Bạc Liêu,Hết hiệu lực: 10/02/2023,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Phạm Văn Thiều,Hết hiệu lực: 10/02/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+385,1629/QĐ-UBND,Tỉnh Bạc Liêu,Hết hiệu lực: 10/02/2023,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Phạm Văn Thiều,Hết hiệu lực: 10/02/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+386,1790/KH-UBND,Tỉnh Quảng Bình,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Hồ An Phong,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+387,3276/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Văn Thi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+388,3282/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Văn Thi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+389,48/2022/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,29/09/2022,10/10/2022,29/09/2022,Nguyễn Văn Thi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+390,561/KH-UBND,Tỉnh Đắk Nông,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Hồ Văn Mười,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+391,2527/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Võ Văn Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+392,2537/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Võ Văn Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+393,2206/QĐ-UBND,Tỉnh Đắk Lắk,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Tuấn Hà,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+394,3692/QĐ-BNN-TC,Bộ Nông nghiệp và Phát triển nông thôn,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Lê Quốc Doanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+395,3270/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Đầu Thanh Tùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+396,3278/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Văn Thi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+397,27/2022/QĐ-UBND,Tỉnh Bạc Liêu,Còn hiệu lực,Quyết định,0,29/09/2022,08/10/2022,29/09/2022,Phạm Văn Thiều,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+398,2400/QĐ-UBND,Tỉnh Bình Dương,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Mai Hùng Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+399,2867/QĐ-UBND,Quận Gò Vấp,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Đỗ Anh Khang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+400,2868/QĐ-UBND,Quận Gò Vấp,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Đỗ Anh Khang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+401,2885/QĐ-UBND,Quận Gò Vấp,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Đỗ Anh Khang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+402,55/VBHN-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Văn bản hợp nhất,0,29/09/2022,29/09/2022,29/09/2022,Lê Đình Thọ,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+403,26/2022/QĐ-UBND,Tỉnh Sơn La,Còn hiệu lực,Quyết định,0,29/09/2022,10/10/2022,29/09/2022,Hoàng Quốc Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+404,1146/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Phạm Bình Minh,Còn hiệu lực,10/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+405,665/KH-UBND,Tỉnh Nghệ An,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Hoàng Nghĩa Hiếu,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+406,1925/QĐ-UBND,Tỉnh Trà Vinh,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Trung Hoàng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+407,170/QĐ-SQHKT,Sở Quy hoạch - Kiến trúc Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Thanh Nhã,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+408,2395/QĐ-SGDĐT,Sở Giáo dục và Đào tạo Thành phố Hồ Chí Minh,Hết hiệu lực: 12/04/2024,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Văn Hiếu,Hết hiệu lực: 12/04/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+409,32/2022/QĐ-UBND,Tỉnh Tuyên Quang,Còn hiệu lực,Quyết định,0,29/09/2022,10/10/2022,29/09/2022,Nguyễn Văn Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+410,40/2022/QĐ-UBND,Tỉnh Hưng Yên,Còn hiệu lực,Quyết định,0,29/09/2022,15/10/2022,29/09/2022,Trần Quốc Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+411,3550/QĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Chử Xuân Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+412,33/2022/QĐ-UBND,Tỉnh Tuyên Quang,Còn hiệu lực,Quyết định,0,29/09/2022,09/10/2022,29/09/2022,Nguyễn Thế Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+413,34/2022/QĐ-UBND,Tỉnh Tuyên Quang,Còn hiệu lực,Quyết định,0,29/09/2022,09/10/2022,29/09/2022,Nguyễn Thế Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+414,3260/KH-UBND,Tỉnh Bình Thuận,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Văn Phong,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+415,2224/QĐ-UBND,Tỉnh Hưng Yên,Hết hiệu lực: 04/04/2023,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Duy Hưng,Hết hiệu lực: 04/04/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+416,235/UBND-KH,Tỉnh Quảng Ninh,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Bùi Văn Khắng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+417,236/KH-UBND,Tỉnh Quảng Ninh,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Bùi Văn Khắng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+418,583/QĐ-QLD,Cục Quản lý dược,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Vũ Tuấn Cường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+419,39/2022/QĐ-UBND,Tỉnh Hưng Yên,Còn hiệu lực,Quyết định,0,29/09/2022,10/10/2022,29/09/2022,Trần Quốc Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+420,2391/QĐ-UBND,Tỉnh An Giang,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Thanh Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+421,2393/QĐ-UBND,Tỉnh An Giang,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Thanh Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+422,38/2022/QĐ-UBND,Tỉnh Hưng Yên,Còn hiệu lực,Quyết định,0,29/09/2022,10/10/2022,29/09/2022,Trần Quốc Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+423,3250/KH-UBND,Tỉnh Kon Tum,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Y Ngọc,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+424,353/KH-UBND,Tỉnh Thừa Thiên Huế,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Văn Phương,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+425,2392/QĐ-UBND,Tỉnh An Giang,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Thanh Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+426,1294/QĐ-UBND,Tỉnh Lai Châu,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Giàng A Tính,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+427,1565/QĐ-UBND,Tỉnh Lạng Sơn,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Lương Trọng Quỳnh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+428,444/KH-UBND,Tỉnh Bắc Ninh,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Vương Quốc Tuấn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+429,328/KH-UBND,Tỉnh Lào Cai,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Giàng Thị Dung,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+430,329/KH-UBND,Tỉnh Lào Cai,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Giàng Thị Dung,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+431,330/KH-UBND,Tỉnh Lào Cai,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Giàng Thị Dung,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+432,24/CT-UBND,Tỉnh Nghệ An,Còn hiệu lực,Chỉ thị,0,29/09/2022,29/09/2022,29/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+433,133/KH-UBND,Tỉnh Bình Định,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Lâm Hải Giang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+434,3176/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Lâm Hải Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+435,3185/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Lâm Hải Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+436,382/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+437,663/KH-UBND,Tỉnh Nghệ An,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Bùi Đình Long,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+438,130/KH-UBND,Tỉnh Nam Định,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Hà Lan Anh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+439,384/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+440,161/KH-UBND,Tỉnh Ninh Bình,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Trần Song Tùng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+441,162/KH-UBND,Tỉnh Ninh Bình,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Trần Song Tùng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+442,59/2022/TT-BTC,Bộ Tài chính,Hết hiệu lực: 01/01/2023,Thông tư,0,29/09/2022,01/10/2022,29/09/2022,Võ Thành Hưng,Hết hiệu lực: 01/01/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+443,5077/KH-UBND,Tỉnh Bình Dương,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Võ Văn Minh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+444,1283/QĐ-UBND,Tỉnh Cao Bằng,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Hoàng Xuân Ánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+445,383/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Hoàng Nghĩa Hiếu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+446,2460/QĐ-UBND,Tỉnh Cà Mau,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Lê Văn Sử,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+447,2461/QĐ-UBND,Tỉnh Cà Mau,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Lê Văn Sử,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+448,37/2022/QĐ-UBND,Tỉnh Đắk Lắk,Còn hiệu lực,Quyết định,0,29/09/2022,17/10/2022,29/09/2022,Phạm Ngọc Nghị,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+449,27/2022/QĐ-UBND,Tỉnh Sơn La,Còn hiệu lực,Quyết định,0,29/09/2022,10/10/2022,29/09/2022,Hoàng Quốc Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+450,33/2022/QĐ-UBND,Tỉnh Đắk Nông,Còn hiệu lực,Quyết định,0,29/09/2022,15/10/2022,29/09/2022,Hồ Văn Mười,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+451,19/2022/NQ-HĐND,Tỉnh Đồng Tháp,Còn hiệu lực,Nghị quyết,0,29/09/2022,10/10/2022,29/09/2022,Phan Văn Thắng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+452,20/2022/NQ-HĐND,Tỉnh Đồng Tháp,Còn hiệu lực,Nghị quyết,0,29/09/2022,10/10/2022,29/09/2022,Phan Văn Thắng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+453,32/2022/QĐ-UBND,Tỉnh Hậu Giang,Còn hiệu lực,Quyết định,0,29/09/2022,10/10/2022,29/09/2022,Trương Cảnh Tuyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+454,172/KH-UBND,Thành phố Đà Nẵng,Không xác định,Kế hoạch,0,29/09/2022,29/09/2022,29/09/2022,Lê Trung Chinh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+455,3534/QĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Lê Hồng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+456,853/QĐ-BXD,Bộ Xây dựng,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Thanh Nghị,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+457,2225/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+458,2654/QĐ-UBND,Tỉnh Quảng Bình,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Hồ An Phong,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+459,18/2022/NQ-HĐND,Tỉnh Đồng Tháp,Còn hiệu lực,Nghị quyết,0,29/09/2022,10/10/2022,29/09/2022,Phan Văn Thắng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+460,311/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,29/09/2022,29/09/2022,29/09/2022,Trần Văn Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+461,2538/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Võ Văn Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+462,3685/QĐ-BNN-KTHT,Bộ Nông nghiệp và Phát triển nông thôn,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Trần Thanh Nam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+463,31/2022/QĐ-UBND,Tỉnh Tuyên Quang,Còn hiệu lực,Quyết định,0,29/09/2022,10/10/2022,29/09/2022,Nguyễn Thế Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+464,1280/QĐ-KTNN,Kiểm toán Nhà nước,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Ngô Văn Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+465,10/2022/TT-BTNMT,Bộ Tài nguyên và Môi trường,Còn hiệu lực,Thông tư,0,29/09/2022,15/11/2022,29/09/2022,Nguyễn Thị Phương Hoa,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+466,56/VBHN-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Văn bản hợp nhất,0,29/09/2022,29/09/2022,29/09/2022,Nguyễn Xuân Sang,Còn hiệu lực,12/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+467,3175/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,29/09/2022,29/09/2022,29/09/2022,Lâm Hải Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+468,55/VBHN-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Văn bản hợp nhất,0,29/09/2022,29/09/2022,29/09/2022,Lê Đình Thọ,Còn hiệu lực,12/11/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+469,54/VBHN-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Văn bản hợp nhất,0,29/09/2022,29/09/2022,29/09/2022,Lê Đình Thọ,Còn hiệu lực,11/11/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+470,21/2022/NQ-HĐND,Tỉnh Đồng Tháp,Hết hiệu lực: 01/04/2024,Nghị quyết,0,29/09/2022,10/10/2022,29/09/2022,Phan Văn Thắng,Hết hiệu lực: 01/04/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+471,59/2022/TT-BTC,Bộ Tài chính,Hết hiệu lực: 01/01/2023,Thông tư,0,29/09/2022,01/10/2022,29/09/2022,Võ Thành Hưng,Hết hiệu lực: 01/01/2023,17/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+472,186/KH-UBND,Tỉnh Tuyên Quang,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Văn Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+473,572/QĐ-UBND,Tỉnh Tuyên Quang,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Thế Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+474,1155/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Phạm Bình Minh,Còn hiệu lực,10/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+475,11/2022/QĐ-UBND,Tỉnh Hải Dương,Còn hiệu lực,Quyết định,0,30/09/2022,10/10/2022,30/09/2022,Trần Văn Quân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+476,619/KH-UBND,Tỉnh Bắc Kạn,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Phạm Duy Hưng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+477,48/2022/QĐ-UBND,Tỉnh Hà Nam,Còn hiệu lực,Quyết định,0,30/09/2022,15/10/2022,30/09/2022,Trương Quốc Huy,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+478,1355/QĐ-UBND,Tỉnh Ninh Thuận,Hết hiệu lực: 23/01/2023,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Lê Huyền,Hết hiệu lực: 23/01/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+479,3558/QĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Trần Sỹ Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+480,3300/QĐ-UBND,Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Phan Văn Mãi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+481,1156/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Phạm Bình Minh,Còn hiệu lực,10/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+482,2569/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Võ Văn Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+483,2609/QĐ-UBND,Tỉnh Quảng Nam,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Trần Văn Tân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+484,3296/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Mai Xuân Liêm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+485,06/CĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Công điện,0,30/09/2022,30/09/2022,30/09/2022,Trần Sỹ Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+486,203/KH-UBND,Thành phố Cần Thơ,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Trần Việt Trường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+487,33/2022/QĐ-UBND,Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,30/09/2022,10/10/2022,30/09/2022,Phan Văn Mãi,Còn hiệu lực,15/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+488,3538/QĐ-UBND,Thành phố Cần Thơ,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Ngọc Hè,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+489,1840/QĐ-UBND,Tỉnh Điện Biên,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Lê Thành Đô,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+490,34/2022/QĐ-UBND,Tỉnh Đắk Nông,Còn hiệu lực,Quyết định,0,30/09/2022,15/10/2022,30/09/2022,Lê Văn Chiến,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+491,33/2022/QĐ-UBND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Quyết định,0,30/09/2022,10/10/2022,30/09/2022,Vũ Chí Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+492,618/KH-UBND,Tỉnh Bắc Kạn,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Phạm Duy Hưng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+493,2656/QĐ-UBND,Tỉnh Đồng Nai,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Cao Tiến Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+494,1816/QĐ-BTTTT,Bộ Thông tin và Truyền thông,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Mạnh Hùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+495,2823/QĐ-BGDĐT,Bộ Giáo dục và Đào tạo,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Ngô Thị Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+496,175/KH-UBND,Tỉnh Phú Yên,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Trần Hữu Thế,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+497,12/CT-UBND,Tỉnh Đắk Lắk,Còn hiệu lực,Chỉ thị,0,30/09/2022,30/09/2022,30/09/2022,Võ Văn Cảnh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+498,2220/QĐ-UBND,Tỉnh Đắk Lắk,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Tuấn Hà,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+499,207/KH-UBND,Tỉnh Đồng Nai,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Võ Văn Phi,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+500,208/KH-UBND,Tỉnh Đồng Nai,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Võ Văn Phi,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+501,3542/QĐ-UBND,Thành phố Cần Thơ,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Ngọc Hè,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+502,3543/QĐ-UBND,Thành phố Cần Thơ,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Ngọc Hè,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+503,1059/QĐ-UBND-HC,Tỉnh Đồng Tháp,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Huỳnh Minh Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+504,1669/QĐ-NHNN,Ngân hàng Nhà nước Việt Nam,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Đào Minh Tú,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+505,1670/QĐ-NHNN,Ngân hàng Nhà nước Việt Nam,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Đào Minh Tú,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+506,616/KH-UBND,Tỉnh An Giang,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Thị Minh Thúy,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+507,617/KH-UBND,Tỉnh An Giang,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Thị Minh Thúy,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+508,3070/QĐ-UBND,Tỉnh Bà Rịa - Vũng Tàu,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Lê Ngọc Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+509,19/CTr-UBND,Tỉnh Lào Cai,Không xác định,Văn bản khác,0,30/09/2022,30/09/2022,30/09/2022,Trịnh Xuân Trường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+510,2818/KH-UBND,Tỉnh Bắc Ninh,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Vương Quốc Tuấn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+511,21/2022/TT-BKHDT,Bộ Kế hoạch và Đầu tư,Còn hiệu lực,Thông tư,0,30/09/2022,20/11/2022,30/09/2022,Nguyễn Chí Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+512,313/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,30/09/2022,30/09/2022,30/09/2022,Trần Văn Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+513,2657/QĐ-UBND,Tỉnh Đồng Nai,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Võ Tấn Đức,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+514,2837/QĐ-UBND,Tỉnh Quảng Ninh,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Phạm Văn Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+515,237/KH-UBND,Tỉnh Quảng Ninh,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Tường Văn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+516,2658/QĐ-UBND,Tỉnh Đồng Nai,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Võ Văn Phi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+517,1934/QĐ-UBND,Tỉnh Trà Vinh,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Quỳnh Thiện,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+518,11/2022/TT-NHNN,Ngân hàng Nhà nước Việt Nam,Còn hiệu lực,Thông tư,0,30/09/2022,01/04/2023,30/09/2022,Đào Minh Tú,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+519,294/KH-QLDA,Quận 7,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Trần Minh Điện,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+520,3071/QĐ-UBND,Tỉnh Bà Rịa - Vũng Tàu,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Lê Ngọc Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+521,184/KH-UBND,Tỉnh Tuyên Quang,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Văn Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+522,44/2022/QĐ-UBND,Tỉnh Lâm Đồng,Còn hiệu lực,Quyết định,0,30/09/2022,10/10/2022,30/09/2022,Trần Văn Hiệp,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+523,2155/QĐ-UBND,Tỉnh Thái Bình,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Khắc Thận,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+524,2825/QĐ-UBND,Tỉnh Quảng Ninh,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Bùi Văn Khắng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+525,256/KH-UBND,Thành phố Hà Nội,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Lê Hồng Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+526,14/CT-UBND,Tỉnh Hải Dương,Còn hiệu lực,Chỉ thị,0,30/09/2022,30/09/2022,30/09/2022,Trần Văn Quân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+527,185/KH-UBND,Tỉnh Tuyên Quang,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Thế Giang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+528,2041/QĐ-UBND,Tỉnh Bình Thuận,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Phan Văn Đăng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+529,1774/QĐ-UBND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Vũ Chí Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+530,618/QĐ-UBND,Tỉnh Kon Tum,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Y Ngọc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+531,178/KH-UBND,Tỉnh Bà Rịa - Vũng Tàu,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Văn Thọ,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+532,179/KH-UBND,Tỉnh Bà Rịa - Vũng Tàu,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Văn Thọ,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+533,2426/QĐ-UBND,Tỉnh Kiên Giang,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Lâm Minh Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+534,12/CT-UBND,Tỉnh Lai Châu,Còn hiệu lực,Chỉ thị,0,30/09/2022,30/09/2022,30/09/2022,Hà Trọng Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+535,1572/QĐ-UBND,Tỉnh Lạng Sơn,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Lương Trọng Quỳnh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+536,1843/QĐ-UBND,Tỉnh Bắc Kạn,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Đăng Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+537,447/KH-UBND,Tỉnh Bắc Ninh,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Vương Quốc Tuấn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+538,06/CT-UBND,Tỉnh Lâm Đồng,Còn hiệu lực,Chỉ thị,0,30/09/2022,30/09/2022,30/09/2022,Trần Văn Hiệp,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+539,1765/QĐ-UBND,Tỉnh Lâm Đồng,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Phạm S,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+540,1766/QĐ-UBND,Tỉnh Lâm Đồng,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Phạm S,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+541,2430/QĐ-UBND,Tỉnh Kiên Giang,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Thanh Nhàn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+542,296/KH-UBND,Tỉnh Tiền Giang,Không xác định,Kế hoạch,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Văn Vĩnh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+543,14/2022/TT-BCT,Bộ Công thương,Còn hiệu lực,Thông tư,0,30/09/2022,22/11/2022,30/09/2022,Đặng Hoàng An,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+544,2470/QĐ-UBND,Tỉnh Cà Mau,Hết hiệu lực: 10/10/2022,Quyết định,0,30/09/2022,03/10/2022,30/09/2022,Huỳnh Quốc Việt,Hết hiệu lực: 10/10/2022,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+545,2625/QĐ-UBND,Tỉnh Quảng Nam,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Trần Văn Tân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+546,59/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,30/09/2022,30/09/2022,30/09/2022,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+547,313/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,30/09/2022,30/09/2022,30/09/2022,Trần Văn Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+548,10/2022/NQ-HĐND,Tỉnh Bạc Liêu,Còn hiệu lực,Nghị quyết,0,30/09/2022,10/10/2022,30/09/2022,Lữ Văn Hùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+549,08/2022/NQ-HĐND,Tỉnh Bạc Liêu,Còn hiệu lực,Nghị quyết,0,30/09/2022,10/10/2022,30/09/2022,Lữ Văn Hùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+550,3283/QĐ-UBND,Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Phan Văn Mãi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+551,23/2022/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,30/09/2022,10/10/2022,30/09/2022,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+552,24/2022/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,30/09/2022,10/10/2022,30/09/2022,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+553,33/2022/QĐ-UBND,Tỉnh Hậu Giang,Còn hiệu lực,Quyết định,0,30/09/2022,10/10/2022,30/09/2022,Nguyễn Văn Hòa,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+554,28/2022/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,30/09/2022,11/10/2022,30/09/2022,Lê Đức Tiến,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+555,29/2022/QĐ-UBND,Tỉnh Quảng Ninh,Còn hiệu lực,Quyết định,0,30/09/2022,10/10/2022,30/09/2022,Nguyễn Tường Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+556,858/QĐ-BXD,Bộ Xây dựng,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Lê Quang Hùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+557,12/2022/TT-NHNN,Ngân hàng Nhà nước Việt Nam,Còn hiệu lực,Thông tư,0,30/09/2022,15/11/2022,30/09/2022,Phạm Thanh Hà,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+558,20/2022/TT-BKHĐT,Bộ Kế hoạch và Đầu tư,Còn hiệu lực,Thông tư,0,30/09/2022,20/11/2022,30/09/2022,Nguyễn Chí Dũng,Còn hiệu lực,20/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+559,09/2022/NQ-HĐND,Tỉnh Bạc Liêu,Còn hiệu lực,Nghị quyết,0,30/09/2022,10/10/2022,30/09/2022,Lữ Văn Hùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+560,4892/TB-KBNN,kho bạc nhà nước,Không xác định,Thông báo,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Mạnh Cường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+561,312/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,30/09/2022,30/09/2022,30/09/2022,Mai Thị Thu Vân,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+562,4095/TB-TCHQ,Tổng cục Hải quan,Không xác định,Thông báo,0,30/09/2022,30/09/2022,30/09/2022,Đàm Mạnh Hiếu,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+563,64/HD-TLĐ,Tổng liên đoàn Lao động Việt Nam,Còn hiệu lực,Hướng dẫn,0,30/09/2022,30/09/2022,30/09/2022,Ngọ Duy Hiểu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+564,1991/QĐ-BCT,Bộ Công thương,Hết hiệu lực: 12/02/2023,Quyết định,0,30/09/2022,15/10/2022,30/09/2022,Trần Quốc Khánh,Hết hiệu lực: 12/02/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+565,63/2022/TT-BQP,Bộ Quốc phòng,Còn hiệu lực,Thông tư,0,30/09/2022,15/11/2022,30/09/2022,Nguyễn Tân Cương,Còn hiệu lực,30/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+566,11/2022/TT-NHNN,Ngân hàng Nhà nước Việt Nam,Còn hiệu lực,Thông tư,0,30/09/2022,01/04/2023,30/09/2022,Đào Minh Tú,Còn hiệu lực,16/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+567,14/2022/TT-BCT,Bộ Công thương,Còn hiệu lực,Thông tư,0,30/09/2022,22/11/2022,30/09/2022,Đặng Hoàng An,Còn hiệu lực,15/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+568,18/2022/TT-BLĐTBXH,Bộ Lao động - Thương binh và Xã hội,Còn hiệu lực,Thông tư,0,30/09/2022,15/11/2022,30/09/2022,Lê Văn Thanh,Còn hiệu lực,10/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+569,21/2022/TT-BKHĐT,Bộ Kế hoạch và Đầu tư,Còn hiệu lực,Thông tư,0,30/09/2022,20/11/2022,30/09/2022,Nguyễn Chí Dũng,Còn hiệu lực,23/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+570,1339/QĐ-UBND,Tỉnh Quảng Ngãi,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Đặng Văn Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+571,1982/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Hồng Diên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+572,25/2022/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,30/09/2022,10/10/2022,30/09/2022,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+573,20/2022/TT-BKHDT,Bộ Kế hoạch và Đầu tư,Còn hiệu lực,Thông tư,0,30/09/2022,20/11/2022,30/09/2022,Nguyễn Chí Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+574,1797/QĐ-UBND,Tỉnh Bình Phước,Hết hiệu lực: 07/11/2023,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Trần Tuyết Minh,Hết hiệu lực: 07/11/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+575,27/2022/QĐ-UBND,Tỉnh Quảng Trị,Hết hiệu lực: 10/01/2024,Quyết định,0,30/09/2022,15/10/2022,30/09/2022,Võ Văn Hưng,Hết hiệu lực: 10/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+576,2027/QĐ-UBND,Tỉnh Vĩnh Long,Còn hiệu lực,Quyết định,0,30/09/2022,30/09/2022,30/09/2022,Nguyễn Văn Liệt,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+577,10/2022/QĐ-UBND,Huyện Nhà Bè,Còn hiệu lực,Quyết định,0,30/09/2022,10/10/2022,30/09/2022,Triệu Đỗ Hồng Phước,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+578,22/2022/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,30/09/2022,10/10/2022,30/09/2022,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+579,12/2022/TT-NHNN,Ngân hàng Nhà nước Việt Nam,Còn hiệu lực,Thông tư,0,30/09/2022,15/11/2022,30/09/2022,Phạm Thanh Hà,Còn hiệu lực,17/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+580,889/CĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Công điện,0,01/10/2022,01/10/2022,01/10/2022,Phạm Minh Chính,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+581,71/2022/ND-CP,Chính phủ,Còn hiệu lực,Nghị định,0,01/10/2022,01/01/2023,01/10/2022,Vũ Đức Đam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+582,1161/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,01/10/2022,01/10/2022,01/10/2022,Lê Minh Khái,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+583,71/2022/NĐ-CP,Chính phủ,Còn hiệu lực,Nghị định,0,01/10/2022,01/01/2023,01/10/2022,Vũ Đức Đam,Còn hiệu lực,10/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+584,03/2022/TT-UBDT,Uỷ ban Dân tộc,Còn hiệu lực,Thông tư,0,01/10/2022,15/11/2022,01/10/2022,Hầu A Lềnh,Còn hiệu lực,18/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+585,1847/QĐ-UBND,Tỉnh Bắc Kạn,Còn hiệu lực,Quyết định,0,02/10/2022,02/10/2022,02/10/2022,Nguyễn Đăng Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+586,7/VBHN-BNV,Bộ Nội vụ,Còn hiệu lực,Văn bản hợp nhất,0,02/10/2022,02/10/2022,02/10/2022,Phạm Thị Thanh Trà,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+587,1431/QĐ-UBND,Tỉnh Tuyên Quang,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Thế Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+588,643/QĐ-LĐLĐ,Liên đoàn Lao động thành phố Hà Nội,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Phi Thường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+589,2011/QĐ-BTC,Bộ Tài chính,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Hồ Đức Phớc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+590,34/2022/QĐ-UBND,Tỉnh Hậu Giang,Còn hiệu lực,Quyết định,0,03/10/2022,14/10/2022,03/10/2022,Trương Cảnh Tuyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+591,619/QĐ-UBND,Tỉnh Kon Tum,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Lê Ngọc Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+592,16/2022/QĐ-UBND,Tỉnh Đồng Tháp,Còn hiệu lực,Quyết định,0,03/10/2022,14/10/2022,03/10/2022,Phạm Thiện Nghĩa,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+593,37/2022/QĐ-UBND,Tỉnh Bắc Giang,Còn hiệu lực,Quyết định,0,03/10/2022,15/10/2022,03/10/2022,Lê Ánh Dương,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+594,2431/QĐ-BVHTTDL,Bộ Văn hoá, Thể thao và du lịch,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Hoàng Đạo Cương,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+595,13/CT-UBND,Tỉnh Đắk Nông,Còn hiệu lực,Chỉ thị,0,03/10/2022,03/10/2022,03/10/2022,Hồ Văn Mười,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+596,571/KH-UBND,Tỉnh Đắk Nông,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Tôn Thị Ngọc Hạnh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+597,257/KH-UBND,Thành phố Hà Nội,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Chử Xuân Dũng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+598,17/2022/QĐ-UBND.HC,Tỉnh Đồng Tháp,Còn hiệu lực,Quyết định,0,03/10/2022,14/10/2022,03/10/2022,Phạm Thiện Nghĩa,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+599,8817/KH-UBND,Huyện Củ Chi,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Phạm Thị Thanh Hiền,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+600,9386/KH-UBND,Tỉnh Khánh Hòa,Còn hiệu lực,Hướng dẫn,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Tấn Tuân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+601,2244/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,03/10/2022,01/01/2023,03/10/2022,Nguyễn Minh Cảnh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+602,1776/QĐ-CT,Tỉnh Vĩnh Phúc,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Vũ Việt Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+603,30/2022/QĐ-UBND,Tỉnh Quảng Ninh,Còn hiệu lực,Quyết định,0,03/10/2022,15/10/2022,03/10/2022,Nguyễn Tường Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+604,2157/QĐ-UBND,Tỉnh Hòa Bình,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Bùi Văn Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+605,2257/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+606,1163/QĐ-UBND,Tỉnh Phú Yên,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Trần Hữu Thế,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+607,1173/QĐ-UBND,Tỉnh Phú Yên,Hết hiệu lực: 23/02/2023,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Lê Tấn Hổ,Hết hiệu lực: 23/02/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+608,1175/QĐ-UBND,Tỉnh Phú Yên,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Trần Hữu Thế,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+609,2064/QĐ-UBND,Tỉnh Bình Thuận,Còn hiệu lực,Quyết định,0,03/10/2022,22/07/2022,03/10/2022,Lê Tuấn Phong,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+610,326/KH-UBND,Tỉnh Đồng Tháp,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Huỳnh Minh Tuấn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+611,327/KH-UBND,Tỉnh Đồng Tháp,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Đoàn Tấn Bửu,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+612,49/2022/QĐ-UBND,Tỉnh Hà Nam,Còn hiệu lực,Quyết định,0,03/10/2022,15/10/2022,03/10/2022,Nguyễn Anh Chức,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+613,2790/QĐ-UBND,Tỉnh Tiền Giang,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Trần Văn Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+614,33/2022/QĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Quyết định,0,03/10/2022,14/10/2022,03/10/2022,Nguyễn Mạnh Quyền,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+615,65/2022/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,03/10/2022,15/10/2022,03/10/2022,Nguyễn Tuấn Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+616,3627/QĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Dương Đức Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+617,2637/QĐ-UBND,Tỉnh Quảng Nam,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Trần Văn Tân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+618,187/KH-UBND,Tỉnh Tuyên Quang,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Văn Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+619,1735/QĐ-UBND,Tỉnh Yên Bái,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Trần Huy Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+620,20/2022/QĐ-UBND,Tỉnh Bà Rịa - Vũng Tàu,Còn hiệu lực,Quyết định,0,03/10/2022,17/10/2022,03/10/2022,Nguyễn Văn Thọ,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+621,359/KH-UBND,Tỉnh Thừa Thiên Huế,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Văn Phương,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+622,15/2022/TT-BCT,Bộ Công thương,Còn hiệu lực,Thông tư,0,03/10/2022,25/11/2022,03/10/2022,Đặng Hoàng An,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+623,1311/QĐ-UBND,Tỉnh Lai Châu,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Tống Thanh Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+624,1312/QĐ-UBND,Tỉnh Lai Châu,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Tống Thanh Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+625,1577/QĐ-UBND,Tỉnh Lạng Sơn,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Dương Xuân Huyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+626,414/QĐ-UBND,Tỉnh Bắc Ninh,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Đào Quang Khải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+627,1773/QĐ-UBND,Tỉnh Lâm Đồng,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Trần Văn Hiệp,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+628,7467/KH-UBND,Tỉnh Lâm Đồng,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Trần Văn Hiệp,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+629,333/ĐA-UBND,Tỉnh Lào Cai,Không xác định,Văn bản khác,0,03/10/2022,03/10/2022,03/10/2022,Trịnh Xuân Trường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+630,3200/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Tuấn Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+631,3204/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Tuấn Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+632,3207/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Lâm Hải Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+633,134/KH-UBND,Tỉnh Bình Định,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Lâm Hải Giang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+634,2998/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Bùi Đình Long,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+635,4289/KH-UBND,Tỉnh Ninh Thuận,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Lê Huyền,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+636,3208/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Lâm Hải Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+637,164/KH-UBND,Tỉnh Ninh Bình,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Tống Quang Thìn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+638,5132/KH-UBND,Tỉnh Bình Dương,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Võ Văn Minh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+639,2681/QĐ-BYT,Bộ Y tế,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Trường Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+640,9107/QĐ-UBND,Tỉnh Long An,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Văn Út,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+641,9123/QĐ-UBND,Tỉnh Long An,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Văn Út,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+642,3089/QĐ-UBND,Tỉnh Bà Rịa - Vũng Tàu,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Lê Ngọc Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+643,3090/QĐ-UBND,Tỉnh Bà Rịa - Vũng Tàu,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Lê Ngọc Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+644,9368/KH-UBND,Tỉnh Khánh Hòa,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Tấn Tuân,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+645,2733/QĐ-UBND,Tỉnh Khánh Hòa,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Anh Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+646,173/KH-UBND,Thành phố Đà Nẵng,Không xác định,Kế hoạch,0,03/10/2022,03/10/2022,03/10/2022,Lê Trung Chinh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+647,2059/QĐ-UBND,Tỉnh Bình Thuận,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Lê Tuấn Phong,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+648,70-HD/BTGTW,Ban Tuyên giáo Trung ương,Còn hiệu lực,Hướng dẫn,0,03/10/2022,03/10/2022,03/10/2022,Phan Xuân Thủy,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+649,60/2022/TT-BTC,Bộ Tài chính,Còn hiệu lực,Thông tư,0,03/10/2022,17/11/2022,03/10/2022,Võ Thành Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+650,60/2022/TT-BTC,Bộ Tài chính,Còn hiệu lực,Thông tư,0,03/10/2022,17/11/2022,03/10/2022,Võ Thành Hưng,Còn hiệu lực,09/11/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+651,23/2022/TT-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Thông tư,0,03/10/2022,18/11/2022,03/10/2022,Nguyễn Xuân Sang,Còn hiệu lực,16/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+652,15/2022/TT-BCT,Bộ Công thương,Còn hiệu lực,Thông tư,0,03/10/2022,25/11/2022,03/10/2022,Đặng Hoàng An,Còn hiệu lực,17/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+653,101/QĐ-TCT1121,Tổ công tác 1121,Còn hiệu lực,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Lê Văn Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+654,3003/QĐ-UBND,Tỉnh Nghệ An,Hết hiệu lực: 25/01/2024,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Bùi Đình Long,Hết hiệu lực: 25/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+655,36/2022/QĐ-UBND,Tỉnh Bắc Giang,Hết hiệu lực: 15/12/2023,Quyết định,0,03/10/2022,15/10/2022,03/10/2022,Lê Ô Pích,Hết hiệu lực: 15/12/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+656,57/VBHN-BGTVT,Bộ Giao thông vận tải,Không còn phù hợp,Văn bản hợp nhất,0,03/10/2022,03/10/2022,03/10/2022,Nguyễn Xuân Sang,Không còn phù hợp,12/10/2022,2024-07-22 10:47:04,2024-07-22 10:47:04
+657,1774/QĐ-UBND,Tỉnh Lâm Đồng,Hết hiệu lực: 13/06/2024,Quyết định,0,03/10/2022,03/10/2022,03/10/2022,Trần Văn Hiệp,Hết hiệu lực: 13/06/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+658,649/QĐ-LĐLĐ,Liên đoàn Lao động thành phố Hà Nội,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Nguyễn Phi Thường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+659,3566/QĐ-UBND,Thành phố Cần Thơ,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Dương Tấn Hiển,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+660,1483/TB-TA,Tòa án nhân dân Thành phố Hồ Chí Minh,Không xác định,Thông báo,0,04/10/2022,04/10/2022,04/10/2022,Lê Thanh Phong,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+661,12/2022/QĐ-UBND,Tỉnh Hải Dương,Còn hiệu lực,Quyết định,0,04/10/2022,14/10/2022,04/10/2022,Lưu Văn Bản,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+662,2235/QĐ-UBND,Tỉnh Lào Cai,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Trịnh Xuân Trường,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+663,2020/QĐ-BTC,Bộ Tài chính,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Nguyễn Đức Chi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+664,861/QĐ-BXD,Bộ Xây dựng,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Nguyễn Thanh Nghị,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+665,2241/QĐ-UBND,Tỉnh Đắk Lắk,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Nguyễn Tuấn Hà,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+666,1662/QĐ-UBND,Tỉnh Bạc Liêu,Hết hiệu lực: 03/02/2023,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Lê Tấn Cận,Hết hiệu lực: 03/02/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+667,2262/QĐ-UBND,Tỉnh Bến Tre,Hết hiệu lực: 03/04/2023,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Trần Ngọc Tam,Hết hiệu lực: 03/04/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+668,2246/QĐ-UBND,Tỉnh Hưng Yên,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Trần Quốc Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+669,3322/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Đầu Thanh Tùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+670,3324/QĐ-UBND,Tỉnh Thanh Hóa,Hết hiệu lực: 23/02/2023,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Nguyễn Văn Thi,Hết hiệu lực: 23/02/2023,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+671,3325/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Nguyễn Văn Thi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+672,3577/QĐ-UBND,Thành phố Cần Thơ,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Nguyễn Ngọc Hè,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+673,1072/QĐ-UBND-HC,Tỉnh Đồng Tháp,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Huỳnh Minh Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+674,2700/QĐ-BYT,Bộ Y tế,Còn hiệu lực,Quyết định,0,04/10/2022,20/10/2022,04/10/2022,Đỗ Xuân Tuyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+675,535/QĐ-UBND,Tỉnh Ninh Thuận,Còn hiệu lực,Quyết định,0,04/10/2022,04/10/2022,04/10/2022,Lê Huyền,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+676,33/2023/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,20/07/2023,01/08/2023,20/07/2023,Trần Tuệ Hiền,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+677,1335/QĐ-BTTTT,Bộ Thông tin và Truyền thông,Còn hiệu lực,Quyết định,0,20/07/2023,15/08/2023,20/07/2023,Phạm Đức Long,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+678,1509/QĐ-BTC,Bộ Tài chính,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Nguyễn Đức Chi,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+679,1499/QĐ-UBND,Tỉnh Tây Ninh,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Võ Đức Trong,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+680,39/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+681,39/NQ-HĐND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Nghị quyết,0,20/07/2023,12/07/2023,20/07/2023,Hoàng Thị Thúy Lan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+682,48/2023/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,20/07/2023,01/08/2023,20/07/2023,Phạm Quang Ngọc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+683,1072/QĐ-BHXH,Bảo hiểm xã hội Việt Nam,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Đào Việt Ánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+684,1069/QĐ-BHXH,Bảo hiểm xã hội Việt Nam,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Đào Việt Ánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+685,47/QĐ-HĐĐPTN,Hội đồng điều phối vùng Tây Nguyên,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Trần Lưu Quang,Còn hiệu lực,31/07/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+686,920/QĐ-UBND,Tỉnh Phú Yên,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Hồ Thị Nguyên Thảo,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+687,919/QĐ-UBND,Tỉnh Phú Yên,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Hồ Thị Nguyên Thảo,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+688,17/2023/QĐ-UBND,Tỉnh Thái Nguyên,Còn hiệu lực,Quyết định,0,20/07/2023,01/08/2023,20/07/2023,Trịnh Việt Hùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+689,50/2023/NQ-HĐND,Tỉnh Tây Ninh,Còn hiệu lực,Nghị quyết,0,20/07/2023,31/07/2023,20/07/2023,Nguyễn Thành Tâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+690,51/2023/NQ-HĐND,Tỉnh Tây Ninh,Còn hiệu lực,Nghị quyết,0,20/07/2023,31/07/2023,20/07/2023,Nguyễn Thành Tâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+691,53/2023/NQ-HĐND,Tỉnh Tây Ninh,Còn hiệu lực,Nghị quyết,0,20/07/2023,31/07/2023,20/07/2023,Nguyễn Thành Tâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+692,54/2023/NQ-HĐND,Tỉnh Tây Ninh,Còn hiệu lực,Nghị quyết,0,20/07/2023,31/07/2023,20/07/2023,Nguyễn Thành Tâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+693,1303/QĐ-BKHĐT,Bộ Kế hoạch và Đầu tư,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Nguyễn Thị Bích Ngọc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+694,30/NQ-HĐND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Hoàng Thị Thúy Lan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+695,35/NQ-HĐND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Hoàng Thị Thúy Lan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+696,47/2023/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,20/07/2023,01/08/2023,20/07/2023,Trần Song Tùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+697,59/2023/NQ-HĐND,Tỉnh Sơn La,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Nguyễn Thái Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+698,62/2023/NQ-HĐND,Tỉnh Sơn La,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Nguyễn Thái Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+699,09/2023/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+700,34/NQ-HĐND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Hoàng Thị Thúy Lan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+701,32/2023/QĐ-UBND,Tỉnh Hà Tĩnh,Còn hiệu lực,Quyết định,0,20/07/2023,01/08/2023,20/07/2023,Trần Báu Hà,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+702,20/2023/QĐ-UBND,Tỉnh Cà Mau,Còn hiệu lực,Quyết định,0,20/07/2023,05/08/2023,20/07/2023,Nguyễn Minh Luân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+703,1752/QĐ-UBND,Tỉnh Thừa Thiên Huế,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Nguyễn Thanh Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+704,162/KH-UBND,Tỉnh Tuyên Quang,Không xác định,Kế hoạch,0,20/07/2023,20/07/2023,20/07/2023,Nguyễn Văn Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+705,61/2023/NQ-HĐND,Tỉnh Sơn La,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Nguyễn Thái Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+706,60/2023/NQ-HĐND,Tỉnh Sơn La,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Nguyễn Thái Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+707,29/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+708,25/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+709,38/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+710,32/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+711,30/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+712,20/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+713,13/2023/QĐ-UBND,Tỉnh Sóc Trăng,Còn hiệu lực,Quyết định,0,20/07/2023,08/08/2023,20/07/2023,Lâm Hoàng Nghiệp,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+714,10/2023/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+715,07/2023/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+716,33/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+717,22/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+718,21/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+719,13/2023/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+720,19/2023/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,20/07/2023,01/08/2023,20/07/2023,Võ Văn Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+721,12/2023/NQ-HĐND,Tỉnh Thái Nguyên,Còn hiệu lực đến: 31/12/2025,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực đến: 31/12/2025,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+722,11/2023/NQ-HĐND,Tỉnh Thái Bình,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Phạm Hoàng Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+723,1513/QĐ-UBND,Thành phố Đà Nẵng,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Lê Trung Chinh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+724,471/KH-UBND,Tỉnh Đắk Nông,Không xác định,Kế hoạch,0,20/07/2023,20/07/2023,20/07/2023,Hồ Văn Mười,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+725,27/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+726,48/QĐ-BCĐNQ98,Ban chỉ đạo triển khai Nghị quyết số 98/2023/QH15 của Quốc hội,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Phạm Minh Chính,Còn hiệu lực,01/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+727,6305/KH-UBND,Tỉnh Lâm Đồng,Không xác định,Kế hoạch,0,20/07/2023,20/07/2023,20/07/2023,Phạm S,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+728,208/NQ-HĐND,Tỉnh Sơn La,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Nguyễn Thái Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+729,33/2023/QĐ-UBND,Tỉnh Thừa Thiên Huế,Còn hiệu lực,Quyết định,0,20/07/2023,31/07/2023,20/07/2023,Nguyễn Thanh Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+730,1549/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+731,1546/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+732,1545/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+733,96/NQ-HĐND,Tỉnh Tây Ninh,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Nguyễn Thành Tâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+734,3699/QĐ-UBND,Thành phố Hà Nội,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Hà Minh Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+735,1491/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Hồ Đại Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+736,1699/QĐ-UBND,Tỉnh Khánh Hòa,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Đinh Văn Thiệu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+737,12/2023/NQ-HĐND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Hoàng Thị Thúy Lan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+738,11/2023/NQ-HĐND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Hoàng Thị Thúy Lan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+739,14/2023/NQ-HĐND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Hoàng Thị Thúy Lan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+740,13/2023/NQ-HĐND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Hoàng Thị Thúy Lan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+741,10/2023/NQ-HĐND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Nghị quyết,0,20/07/2023,01/08/2023,20/07/2023,Hoàng Thị Thúy Lan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+742,1873/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Đỗ Thắng Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+743,209/NQ-HĐND,Tỉnh Sơn La,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Nguyễn Thái Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+744,15/2023/TT-BYT,Bộ Y tế,Còn hiệu lực,Thông tư,0,20/07/2023,15/09/2023,20/07/2023,Trần Văn Thuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+745,20/2023/QĐ-UBND,Tỉnh Lào Cai,Hết hiệu lực: 01/01/2024,Quyết định,0,20/07/2023,01/08/2023,20/07/2023,Hoàng Quốc Khánh,Hết hiệu lực: 01/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+746,36/NQ-HĐND,Tỉnh Vĩnh Phúc,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Hoàng Thị Thúy Lan,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+747,2598/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Lê Đức Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+748,2936/QĐ-BYT,Bộ Y tế,Hết hiệu lực: 15/03/2024,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Trần Văn Thuấn,Hết hiệu lực: 15/03/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+749,2960/QĐ-UBND,Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Phan Văn Mãi,Còn hiệu lực,01/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+750,259/QĐ-VKSTC,Viện kiểm sát nhân dân tối cao,Còn hiệu lực,Quyết định,0,20/07/2023,20/07/2023,20/07/2023,Lê Minh Trí,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+751,41/2023/QĐ-UBND,Tỉnh Phú Yên,Còn hiệu lực,Quyết định,0,20/07/2023,01/08/2023,20/07/2023,Hồ Thị Nguyên Thảo,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+752,52/2023/NQ-HĐND,Tỉnh Tây Ninh,Còn hiệu lực,Nghị quyết,0,20/07/2023,31/07/2023,20/07/2023,Nguyễn Thành Tâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+753,210/NQ-HĐND,Tỉnh Sơn La,Còn hiệu lực,Nghị quyết,0,20/07/2023,20/07/2023,20/07/2023,Nguyễn Thái Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+754,01/2023/TT-UBDT,Uỷ ban Dân tộc,Còn hiệu lực,Thông tư,0,20/07/2023,15/09/2023,20/07/2023,Hầu A Lềnh,Còn hiệu lực,13/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+755,31/2023/TT-BCA,Bộ Công An,Còn hiệu lực,Thông tư,0,20/07/2023,15/08/2023,20/07/2023,Tô Lâm,Còn hiệu lực,14/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+756,1974/QĐ-BVHTTDL,Bộ Văn hoá, Thể thao và du lịch,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Trịnh Thị Thủy,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+757,1876/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Hồng Diên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+758,08/CT-UBND,Tỉnh Đồng Tháp,Còn hiệu lực,Chỉ thị,0,21/07/2023,21/07/2023,21/07/2023,Phạm Thiện Nghĩa,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+759,2951/QĐ-BYT,Bộ Y tế,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Đỗ Xuân Tuyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+760,2082/QĐ-BGDĐT,Bộ Giáo dục và Đào tạo,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Hoàng Minh Sơn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+761,905/QĐ-UBND,Tỉnh Cao Bằng,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Trịnh Trường Huy,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+762,4763/KH-UBND,Tỉnh Quảng Nam,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Trần Anh Tuấn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+763,3881/KH-SGDĐT,Sở Giáo dục và Đào tạo Thành phố Hồ Chí Minh,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Dương Trí Dũng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+764,1975/QĐ-BVHTTDL,Bộ Văn hoá, Thể thao và du lịch,Hết hiệu lực: 01/01/2024,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Tạ Quang Đông,Hết hiệu lực: 01/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+765,525/TB-TCT,Tổng cục Thuế,Không xác định,Thông báo,0,21/07/2023,21/07/2023,21/07/2023,Đoàn Xuân Toản,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+766,3831/TB-TCHQ,Tổng cục Hải quan,Không xác định,Thông báo,0,21/07/2023,21/07/2023,21/07/2023,Hoàng Việt Cường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+767,283/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Xuân Thành,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+768,204/KH-UBND,Tỉnh Vĩnh Phúc,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Vũ Chí Giang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+769,10/2023/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,01/08/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+770,09/2023/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,01/08/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+771,04/2023/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực đến: 31/12/2025,Nghị quyết,0,21/07/2023,01/08/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực đến: 31/12/2025,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+772,1718/QĐ-UBND,Tỉnh Khánh Hòa,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Tấn Tuân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+773,2031/QĐ-UBND,Tỉnh Quảng Ninh,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Cao Tường Huy,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+774,1569/QĐ-UBND,Tỉnh Quảng Trị,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Võ Văn Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+775,07/2023/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+776,06/2023/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,01/08/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+777,05/2023/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,01/08/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+778,08/2023/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+779,12/2023/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,01/08/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+780,11/2023/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,01/08/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+781,44/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+782,39/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+783,36/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+784,38/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+785,1533/QĐ-UBND,Tỉnh Quảng Nam,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Lê Trí Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+786,2625/KH-UBND,Tỉnh Hải Dương,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Minh Hùng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+787,1346/QĐ-BTTTT,Bộ Thông tin và Truyền thông,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Phạm Đức Long,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+788,129/KH-UBND,Tỉnh Bạc Liêu,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Phạm Văn Thiều,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+789,35/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+790,1098/QĐ-UBND,Tỉnh Quảng Ngãi,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Đặng Văn Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+791,1708/QĐ-UBND,Tỉnh Khánh Hòa,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Tấn Tuân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+792,1703/QĐ-UBND,Tỉnh Thái Nguyên,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Lê Quang Tiến,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+793,1051/QĐ-UBND,Tỉnh Lai Châu,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Tống Thanh Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+794,295/QĐ-UBND,Tỉnh Bắc Ninh,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Đào Quang Khải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+795,741/QĐ-UBND,Tỉnh Gia Lai,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Trương Hải Long,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+796,1196/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Huỳnh Anh Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+797,157/KH-UBND,Thành phố Cần Thơ,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Trần Việt Trường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+798,137/KH-UBND,Tỉnh Bà Rịa - Vũng Tàu,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Đặng Minh Thông,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+799,19/2023/QĐ-UBND,Tỉnh Nam Định,Còn hiệu lực,Quyết định,0,21/07/2023,01/08/2023,21/07/2023,Trần Anh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+800,06/CĐ-TCT,Tổng cục Thuế,Còn hiệu lực,Công điện,0,21/07/2023,21/07/2023,21/07/2023,Vũ Chí Hùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+801,3663/KH-UBND,Tỉnh Bình Dương,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Mai Hùng Dũng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+802,3684/KH-UBND,Tỉnh Bình Dương,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Võ Văn Minh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+803,41/2023/QĐ-UBND,Tỉnh Ninh Thuận,Còn hiệu lực,Quyết định,0,21/07/2023,31/07/2023,21/07/2023,Nguyễn Long Biên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+804,172/KH-UBND,Tỉnh Cà Mau,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Minh Luân,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+805,20/2023/QĐ-UBND,Tỉnh Tây Ninh,Còn hiệu lực,Quyết định,0,21/07/2023,31/07/2023,21/07/2023,Dương Văn Thắng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+806,1121/QĐ-UBND,Tỉnh Lạng Sơn,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Dương Xuân Huyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+807,1189/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Huỳnh Anh Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+808,34/2023/QĐ-UBND,Tỉnh Thừa Thiên Huế,Còn hiệu lực,Quyết định,0,21/07/2023,01/08/2023,21/07/2023,Nguyễn Thanh Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+809,910/QĐ-UBND,Tỉnh Cao Bằng,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Trịnh Trường Huy,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+810,1908/KH-UBND,Tỉnh Gia Lai,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Trương Hải Long,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+811,1787/QĐ-UBND,Tỉnh Sóc Trăng,Hết hiệu lực: 01/01/2024,Quyết định,0,21/07/2023,01/07/2023,21/07/2023,Huỳnh Thị Diễm Ngọc,Hết hiệu lực: 01/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+812,16/CT-UBND,Tỉnh Nam Định,Còn hiệu lực,Chỉ thị,0,21/07/2023,21/07/2023,21/07/2023,Trần Anh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+813,21/2023/QĐ-UBND,Tỉnh Bắc Kạn,Còn hiệu lực,Quyết định,0,21/07/2023,31/07/2023,21/07/2023,Nguyễn Đăng Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+814,1827/QĐ-UBND,Tỉnh Kiên Giang,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Lâm Minh Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+815,1825/QĐ-UBND,Tỉnh Kiên Giang,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Lâm Minh Thành,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+816,760/QĐ-UBND-HC,Tỉnh Đồng Tháp,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Phạm Thiện Nghĩa,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+817,192/KH-UBND,Thành phố Hà Nội,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Mạnh Quyền,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+818,2035/QĐ-BTNMT,Bộ Tài nguyên và Môi trường,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Trần Quý Kiên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+819,1329/QĐ-UBND,Tỉnh Sơn La,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Hoàng Quốc Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+820,24/2023/QĐ-UBND,Thành phố Hải Phòng,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Văn Tùng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+821,1531/QĐ-UBND,Thành phố Đà Nẵng,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Lê Trung Chinh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+822,164/KH-UBND,Tỉnh Tuyên Quang,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Văn Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+823,11/VBHN-BGDĐT,Bộ Giáo dục và Đào tạo,Còn hiệu lực,Văn bản hợp nhất,0,21/07/2023,21/07/2023,21/07/2023,Phạm Ngọc Thưởng,Còn hiệu lực,04/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+824,147/KH-UBND,Tỉnh Quảng Ngãi,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Đặng Văn Minh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+825,146/KH-UBND,Tỉnh Quảng Ngãi,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Trần Hoàng Tuấn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+826,30/2023/QĐ-UBND,Tỉnh Quảng Ngãi,Còn hiệu lực,Quyết định,0,21/07/2023,01/08/2023,21/07/2023,Đặng Văn Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+827,18/2023/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,21/07/2023,31/07/2023,21/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+828,17/2023/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,21/07/2023,31/07/2023,21/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+829,14/2023/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,21/07/2023,31/07/2023,21/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+830,13/2023/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,21/07/2023,31/07/2023,21/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+831,12/2023/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,21/07/2023,31/07/2023,21/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+832,16/2023/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,21/07/2023,31/07/2023,21/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+833,15/2023/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,21/07/2023,31/07/2023,21/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+834,19/2023/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,21/07/2023,31/07/2023,21/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+835,34/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+836,38/NQ-HĐND,Tỉnh Quảng Ngãi,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Bùi Thị Quỳnh Vân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+837,159/KH-UBND,Tỉnh Phú Yên,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Lê Tấn Hổ,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+838,1564/QĐ-BKHCN,Bộ Khoa học và Công nghệ,Còn hiệu lực,Quyết định,0,21/07/2023,10/08/2023,21/07/2023,Lê Xuân Định,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+839,159/KH-UBND,Tỉnh Lạng Sơn,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Dương Xuân Huyên,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+840,30/2023/QĐ-UBND,Tỉnh Gia Lai,Còn hiệu lực,Quyết định,0,21/07/2023,01/08/2023,21/07/2023,Nguyễn Hữu Quế,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+841,23/NQ-HĐND,Tỉnh Bình Dương,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Văn Lộc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+842,10/VBHN-BGDĐT,Bộ Giáo dục và Đào tạo,Còn hiệu lực,Văn bản hợp nhất,0,21/07/2023,21/07/2023,21/07/2023,Phạm Ngọc Thưởng,Còn hiệu lực,06/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+843,08/VBHN-BGDĐT,Bộ Giáo dục và Đào tạo,Còn hiệu lực,Văn bản hợp nhất,0,21/07/2023,21/07/2023,21/07/2023,Phạm Ngọc Thưởng,Còn hiệu lực,02/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+844,09/VBHN-BGDĐT,Bộ Giáo dục và Đào tạo,Còn hiệu lực,Văn bản hợp nhất,0,21/07/2023,21/07/2023,21/07/2023,Phạm Ngọc Thưởng,Còn hiệu lực,02/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+845,385/2023/NQ-HĐND,Tỉnh Hưng Yên,Còn hiệu lực,Nghị quyết,0,21/07/2023,01/08/2023,21/07/2023,Trần Quốc Toàn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+846,6327/KH-UBND,Tỉnh Lâm Đồng,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Ngọc Phúc,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+847,42/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+848,1042/QĐ-UBND,Tỉnh Lai Châu,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Hà Trọng Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+849,2966/QĐ-UBND,Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Bùi Xuân Cường,Còn hiệu lực,15/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+850,32/NQ-HĐND,Tỉnh Khánh Hòa,Còn hiệu lực,Nghị quyết,0,21/07/2023,21/07/2023,21/07/2023,Trần Mạnh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+851,1534/QĐ-UBND,Tỉnh Quảng Nam,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Lê Trí Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+852,20/2023/QĐ-UBND,Tỉnh Nam Định,Hết hiệu lực: 01/01/2024,Quyết định,0,21/07/2023,01/08/2023,21/07/2023,Trần Anh Dũng,Hết hiệu lực: 01/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+853,55/2023/NĐ-CP,Chính phủ,Còn hiệu lực,Nghị định,0,21/07/2023,05/09/2023,21/07/2023,Trần Hồng Hà,Còn hiệu lực,02/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+854,183/KH-UBND,Tỉnh Quảng Ninh,Không xác định,Kế hoạch,0,21/07/2023,21/07/2023,21/07/2023,Nguyễn Thị Hạnh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+855,877/QĐ-UBND,Tỉnh Đắk Nông,Còn hiệu lực,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Lê Trọng Yên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+856,07/VBHN-BGDDT,Bộ Giáo dục và Đào tạo,Không còn phù hợp,Văn bản hợp nhất,0,21/07/2023,21/07/2023,21/07/2023,Phạm Ngọc Thưởng,Không còn phù hợp,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+857,07/VBHN-BGDĐT,Bộ Giáo dục và Đào tạo,Không còn phù hợp,Văn bản hợp nhất,0,21/07/2023,21/07/2023,21/07/2023,Phạm Ngọc Thưởng,Không còn phù hợp,05/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+858,2031/QĐ-BTNMT,Bộ Tài nguyên và Môi trường,Hết hiệu lực: 01/07/2024,Quyết định,0,21/07/2023,21/07/2023,21/07/2023,Châu Trần Vĩnh,Hết hiệu lực: 01/07/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+859,22/2023/QĐ-UBND,Tỉnh Bắc Giang,Còn hiệu lực,Quyết định,0,22/07/2023,15/08/2023,22/07/2023,Lê Ô Pích,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+860,431/QĐ-UBND,Tỉnh Gia Lai,Còn hiệu lực,Quyết định,0,23/07/2023,23/07/2023,23/07/2023,Nguyễn Hữu Quế,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+861,432/QĐ-UBND,Tỉnh Gia Lai,Còn hiệu lực,Quyết định,0,23/07/2023,23/07/2023,23/07/2023,Nguyễn Hữu Quế,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+862,770/QĐ-UBND,Tỉnh Tuyên Quang,Còn hiệu lực,Quyết định,0,23/07/2023,23/07/2023,23/07/2023,Hoàng Việt Phương,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+863,430/QĐ-UBND,Tỉnh Gia Lai,Còn hiệu lực,Quyết định,0,23/07/2023,23/07/2023,23/07/2023,Nguyễn Hữu Quế,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+864,2962/QĐ-BYT,Bộ Y tế,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Đỗ Xuân Tuyên,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+865,529/QĐ-QLD,Cục Quản lý dược,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Thành Lâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+866,289/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,24/07/2023,24/07/2023,24/07/2023,Cao Huy,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+867,186/KH-UBND,Tỉnh Sơn La,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Hoàng Quốc Khánh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+868,179/KH-UBND,Tỉnh Đồng Nai,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Thị Hoàng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+869,10/CT-UBND,Tỉnh An Giang,Còn hiệu lực,Chỉ thị,0,24/07/2023,24/07/2023,24/07/2023,Lê Văn Phước,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+870,1726/QĐ-UBND,Tỉnh Khánh Hòa,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Tấn Tuân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+871,43/2023/QĐ-UBND,Tỉnh Phú Yên,Còn hiệu lực,Quyết định,0,24/07/2023,05/08/2023,24/07/2023,Tạ Anh Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+872,132/KH-UBND,Tỉnh Bình Định,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Tuấn Thanh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+873,1746/QĐ-UBND,Tỉnh Vĩnh Long,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Lữ Quang Ngời,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+874,255/KH-UBND,Tỉnh Đồng Tháp,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Phước Thiện,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+875,528/QĐ-QLD,Cục Quản lý dược,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Thành Lâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+876,1747/QĐ-UBND,Tỉnh Đồng Nai,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Cao Tiến Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+877,1157/QĐ-UBND,Tỉnh Điện Biên,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Lê Thành Đô,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+878,1151/QĐ-UBND,Tỉnh Điện Biên,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Lê Thành Đô,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+879,42/2023/QĐ-UBND,Tỉnh Phú Yên,Còn hiệu lực,Quyết định,0,24/07/2023,05/07/2023,24/07/2023,Lê Tấn Hổ,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+880,12/CT-UBND,Tỉnh Bình Định,Còn hiệu lực,Chỉ thị,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Tuấn Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+881,08/CT-UBND,Tỉnh Lai Châu,Còn hiệu lực,Chỉ thị,0,24/07/2023,24/07/2023,24/07/2023,Lê Văn Lương,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+882,56/2023/ND-CP,Chính phủ,Còn hiệu lực,Nghị định,0,24/07/2023,15/08/2023,24/07/2023,Phạm Minh Chính,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+883,535/QĐ-UBND,Tỉnh Ninh Bình,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Phạm Quang Ngọc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+884,286/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Cao Lục,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+885,158/KH-UBND,Thành phố Cần Thơ,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Văn Hồng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+886,527/QĐ-QLD,Cục Quản lý dược,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Thành Lâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+887,1422/QĐ-UBND,Tỉnh Lâm Đồng,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Ngọc Phúc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+888,945/QĐ-UBND,Tỉnh Phú Yên,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Hồ Thị Nguyên Thảo,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+889,984/QĐ-UBND,Tỉnh Ninh Thuận,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Phan Tấn Cảnh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+890,174/KH-UBND,Tỉnh Cà Mau,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Lâm Văn Bi,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+891,35/2023/QĐ-UBND,Tỉnh Thừa Thiên Huế,Còn hiệu lực,Quyết định,0,24/07/2023,15/08/2023,24/07/2023,Nguyễn Văn Phương,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+892,1532/QĐ-UBND,Tỉnh Phú Thọ,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Bùi Văn Quang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+893,211/KH-UBND,Tỉnh Hà Giang,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Văn Sơn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+894,2675/KH-UBND,Tỉnh Bình Thuận,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Đoàn Anh Dũng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+895,766/QĐ-BXD,Bộ Xây dựng,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Tường Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+896,484/KH-UBND,Tỉnh Bắc Kạn,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Phạm Duy Hưng,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+897,2194/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Văn Đệ,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+898,166/KH-UBND,Tỉnh Tuyên Quang,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Hoàng Việt Phương,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+899,7342/KH-UBND,Tỉnh Khánh Hòa,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Tấn Tuân,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+900,19/2023/QĐ-UBND,Tỉnh Vĩnh Long,Còn hiệu lực,Quyết định,0,24/07/2023,08/08/2023,24/07/2023,Nguyễn Văn Liệt,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+901,1728/QĐ-UBND,Tỉnh Thái Nguyên,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Thanh Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+902,1572/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+903,1307/QĐ-UBND,Tỉnh Yên Bái,Hết hiệu lực: 01/01/2024,Quyết định,0,24/07/2023,01/07/2023,24/07/2023,Ngô Hạnh Phúc,Hết hiệu lực: 01/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+904,1573/QĐ-UBND,Tỉnh Bến Tre,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Trần Ngọc Tam,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+905,193/KH-UBND,Thành phố Hà Nội,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Vũ Thu Hà,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+906,1426/QĐ-UBND,Tỉnh Bình Thuận,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Đoàn Anh Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+907,1340/QĐ-UBND,Tỉnh Sơn La,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Lê Hồng Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+908,1589/QĐ-UBND,Tỉnh Thái Bình,Hết hiệu lực: 01/01/2024,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Lại Văn Hoàn,Hết hiệu lực: 01/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+909,888/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Lê Minh Khái,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+910,2959/QĐ-BYT,Bộ Y tế,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Trần Văn Thuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+911,773/QĐ-UBND,Tỉnh Tuyên Quang,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Hoàng Việt Phương,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+912,1746/QĐ-UBND,Tỉnh Đồng Nai,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Cao Tiến Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+913,886/QD-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Trần Hồng Hà,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+914,886/QĐ-TTg,Thủ tướng Chính phủ,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Trần Hồng Hà,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+915,1425/QĐ-UBND,Tỉnh Bình Thuận,Hết hiệu lực: 01/01/2024,Quyết định,0,24/07/2023,01/07/2023,24/07/2023,Đoàn Anh Dũng,Hết hiệu lực: 01/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+916,1540/QĐ-UBND,Tỉnh Quảng Nam,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Lê Trí Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+917,1306/QĐ-UBND,Tỉnh Yên Bái,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Ngô Hạnh Phúc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+918,1346/QĐ-UBND,Tỉnh Sơn La,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Hoàng Quốc Khánh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+919,01/2023/QĐ-UBND,Huyện Bình Chánh,Còn hiệu lực,Quyết định,0,24/07/2023,01/08/2023,24/07/2023,Võ Đức Thanh,Còn hiệu lực,15/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+920,3008/QĐ-UBND,Thành phố Hồ Chí Minh,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Bùi Xuân Cường,Còn hiệu lực,15/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+921,2748/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Tuấn Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+922,14/CT-UBND,Tỉnh Bình Dương,Còn hiệu lực,Chỉ thị,0,24/07/2023,24/07/2023,24/07/2023,Mai Hùng Dũng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+923,6399/KH-UBND,Tỉnh Lâm Đồng,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Phạm S,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+924,6388/KH-UBND,Tỉnh Lâm Đồng,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Ngọc Phúc,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+925,6368/KH-UBND,Tỉnh Lâm Đồng,Không xác định,Kế hoạch,0,24/07/2023,24/07/2023,24/07/2023,Võ Ngọc Hiệp,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+926,13/2023/QĐ-UBND,Tỉnh Tiền Giang,Còn hiệu lực,Quyết định,0,24/07/2023,10/08/2023,24/07/2023,Nguyễn Văn Vĩnh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+927,877/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,24/07/2023,15/08/2023,24/07/2023,Nguyễn Xuân Sang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+928,1333/QĐ-UBND,Tỉnh Bắc Kạn,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Nguyễn Đăng Bình,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+929,1574/QĐ-UBND,Tỉnh Bến Tre,Hết hiệu lực: 01/01/2024,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Trần Ngọc Tam,Hết hiệu lực: 01/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+930,2064/QĐ-BTNMT,Bộ Tài nguyên và Môi trường,Hết hiệu lực: 17/01/2024,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Lê Công Thành,Hết hiệu lực: 17/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+931,56/2023/NĐ-CP,Chính phủ,Còn hiệu lực,Nghị định,0,24/07/2023,15/08/2023,24/07/2023,Phạm Minh Chính,Còn hiệu lực,06/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+932,1518/QĐ-BTC,Bộ Tài chính,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Võ Thành Hưng,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+933,1438/QĐ-UBND,Tỉnh Nam Định,Hết hiệu lực: 10/04/2024,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Phạm Đình Nghị,Hết hiệu lực: 10/04/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+934,3740/QĐ-UBND,Thành phố Hà Nội,Hết hiệu lực: 27/04/2024,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Lê Hồng Sơn,Hết hiệu lực: 27/04/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+935,111/NQ-CP,Chính phủ,Còn hiệu lực,Nghị quyết,0,24/07/2023,24/07/2023,24/07/2023,Lê Minh Khái,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+936,987/QĐ-UBND,Tỉnh Ninh Thuận,Hết hiệu lực: 01/01/2024,Quyết định,0,24/07/2023,01/07/2023,24/07/2023,Nguyễn Long Biên,Hết hiệu lực: 01/01/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+937,881/QĐ-UBND,Tỉnh Bắc Ninh,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Vương Quốc Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+938,880/QĐ-UBND,Tỉnh Bắc Ninh,Còn hiệu lực,Quyết định,0,24/07/2023,24/07/2023,24/07/2023,Vương Quốc Tuấn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+939,1904/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Đỗ Thắng Hải,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+940,1908/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Nguyễn Sinh Nhật Tân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+941,1907/QĐ-BCT,Bộ Công thương,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Nguyễn Sinh Nhật Tân,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+942,532/QĐ-QLD,Cục Quản lý dược,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Nguyễn Thành Lâm,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+943,02/CT-BTC,Bộ Tài chính,Còn hiệu lực,Chỉ thị,0,25/07/2023,25/07/2023,25/07/2023,Hồ Đức Phớc,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+944,3874/TB-TCHQ,Tổng cục Hải quan,Không xác định,Thông báo,0,25/07/2023,25/07/2023,25/07/2023,Hoàng Việt Cường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+945,3873/TB-TCHQ,Tổng cục Hải quan,Không xác định,Thông báo,0,25/07/2023,25/07/2023,25/07/2023,Hoàng Việt Cường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+946,290/TB-VPCP,Văn phòng Chính phủ,Không xác định,Thông báo,0,25/07/2023,25/07/2023,25/07/2023,Nguyễn Xuân Thành,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+947,1137/QĐ-UBND,Tỉnh Lạng Sơn,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Lương Trọng Quỳnh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+948,2757/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Lâm Hải Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+949,1749/QĐ-UBND,Tỉnh Vĩnh Long,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Nguyễn Văn Liệt,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+950,1731/QĐ-UBND,Tỉnh Thái Nguyên,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Lê Quang Tiến,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+951,1807/QĐ-UBND,Tỉnh Sóc Trăng,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Lâm Hoàng Nghiệp,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+952,7385/KH-UBND,Tỉnh Khánh Hòa,Không xác định,Kế hoạch,0,25/07/2023,25/07/2023,25/07/2023,Đinh Văn Thiệu,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+953,1635/QĐ-CT,Tỉnh Vĩnh Phúc,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Vũ Việt Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+954,1163/QĐ-UBND,Tỉnh Điện Biên,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Lê Thành Đô,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+955,1165/QĐ-UBND,Tỉnh Điện Biên,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Lê Thành Đô,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+956,44/2023/QĐ-UBND,Tỉnh Lâm Đồng,Còn hiệu lực,Quyết định,0,25/07/2023,09/08/2023,25/07/2023,Trần Văn Hiệp,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+957,1595/QĐ-BKHCN,Bộ Khoa học và Công nghệ,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Nguyễn Hoàng Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+958,4872/KH-UBND,Tỉnh Quảng Nam,Không xác định,Kế hoạch,0,25/07/2023,25/07/2023,25/07/2023,Hồ Quang Bửu,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+959,133/KH-UBND,Tỉnh Bình Định,Không xác định,Kế hoạch,0,25/07/2023,25/07/2023,25/07/2023,Lâm Hải Giang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+960,2632/QĐ-UBND,Tỉnh Thanh Hóa,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Lê Đức Giang,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+961,2766/QĐ-UBND,Tỉnh Bình Định,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Nguyễn Tuấn Thanh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+962,1204/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Huỳnh Anh Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+963,1633/QĐ-CT,Tỉnh Vĩnh Phúc,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Vũ Việt Văn,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+964,03/VBHN-BTTTT,Bộ Thông tin và Truyền thông,Còn hiệu lực,Văn bản hợp nhất,0,25/07/2023,25/07/2023,25/07/2023,Nguyễn Mạnh Hùng,Còn hiệu lực,07/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+965,891/QĐ-BGTVT,Bộ Giao thông vận tải,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Nguyễn Văn Thắng,Còn hiệu lực,06/08/2023,2024-07-22 10:47:04,2024-07-22 10:47:04
+966,135/KH-UBND,Tỉnh Bình Định,Không xác định,Kế hoạch,0,25/07/2023,25/07/2023,25/07/2023,Nguyễn Tuấn Thanh,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+967,134/KH-UBND,Tỉnh Bình Định,Không xác định,Kế hoạch,0,25/07/2023,25/07/2023,25/07/2023,Lâm Hải Giang,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+968,42/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,25/07/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+969,41/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,21/07/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+970,24/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,21/07/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+971,23/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,21/07/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+972,1937/KH-UBND,Tỉnh Gia Lai,Không xác định,Kế hoạch,0,25/07/2023,25/07/2023,25/07/2023,Trương Hải Long,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+973,23/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+974,22/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,21/07/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+975,22/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+976,21/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+977,20/2023/NQ-HĐND,Tỉnh Ninh Thuận,Hết hiệu lực: 21/07/2024,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Hết hiệu lực: 21/07/2024,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+978,19/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+979,17/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+980,16/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+981,15/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+982,14/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+983,13/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+984,10/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+985,07/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+986,06/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+987,12/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+988,11/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+989,09/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+990,08/2023/NQ-HĐND,Tỉnh Ninh Thuận,Còn hiệu lực,Nghị quyết,0,25/07/2023,01/08/2023,25/07/2023,Phạm Văn Hậu,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+991,1208/QĐ-UBND,Tỉnh Bình Phước,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Trần Tuyết Minh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+992,21/2023/QĐ-UBND,Tỉnh Tây Ninh,Còn hiệu lực,Quyết định,0,25/07/2023,05/08/2023,25/07/2023,Võ Đức Trong,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+993,23/2023/QĐ-UBND,Tỉnh Đắk Lắk,Còn hiệu lực,Quyết định,0,25/07/2023,10/08/2023,25/07/2023,H'Yim Kđoh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+994,2219/QĐ-UBND,Tỉnh Nghệ An,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Lê Hồng Vinh,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+995,1713/QĐ-UBND,Tỉnh Bà Rịa - Vũng Tàu,Còn hiệu lực,Quyết định,0,25/07/2023,25/07/2023,25/07/2023,Đặng Minh Thông,Còn hiệu lực,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+996,160/KH-UBND,Thành phố Cần Thơ,Không xác định,Kế hoạch,0,25/07/2023,25/07/2023,25/07/2023,Trần Việt Trường,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+997,170/KH-UBND,Tỉnh Yên Bái,Không xác định,Kế hoạch,0,25/07/2023,25/07/2023,25/07/2023,Ngô Hạnh Phúc,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+998,195/KH-UBND,Thành phố Hà Nội,Không xác định,Kế hoạch,0,25/07/2023,25/07/2023,25/07/2023,Dương Đức Tuấn,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04
+999,194/KH-UBND,Thành phố Hà Nội,Không xác định,Kế hoạch,0,25/07/2023,25/07/2023,25/07/2023,Vũ Thu Hà,Không xác định,Đang cập nhật,2024-07-22 10:47:04,2024-07-22 10:47:04

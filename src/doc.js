@@ -1,13 +1,21 @@
 const fs = require('fs.promises');
 const _ = require('lodash')
 const cheerio = require('cheerio');
+var mysql = require('mysql');
+
+var con = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: "tvpl"
+});
+
 
 // config
 const rootDir = '../datas'
-const docTxt = './doc.txt'
 
 const begin = 0
-const end = 100
+const end = 999
 
 function getSlug(string){
     const str = _.split(string,'/',10)[5]
@@ -68,23 +76,22 @@ async function getDoc(){
         let description = await getDescription(item)
         // let content = ""
         let content = await getContent(item)
-        let doc_pdf = checkpdf ? `https://cdn.luatphapvietnam.org/van-ban/${slug}.pdf` : ""
-        let doc_word = checkDoc ? `https://cdn.luatphapvietnam.org/van-ban/${slug}.doc` : ""
+        let doc_pdf = checkpdf ? `https://cdn.luatphapvietnam.org/van-ban/${slug}.pdf` : null
+        let doc_word = checkDoc ? `https://cdn.luatphapvietnam.org/van-ban/${slug}.doc` : null
 
-        const result = JSON.stringify({
-            id,
-            law_id,
-            title,
-            slug,
-            description: description || "",
-            content,
-            doc_pdf,
-            doc_word,
-            created_at:'2024-08-24 21:25:17', 
-            updated_at:'2024-08-24 21:25:17'
-        })
+        content = _.trim(content)
+        content= content.replaceAll(/(\r\n|\n|\r)/gm, "")
+        content= content.replaceAll(`"`, `'`)
 
-        await fs.appendFile(docTxt,result + ',')
+        const result = `${id},${law_id},'${title}','${slug}','${description}',"${content}","${doc_pdf}",'${doc_word}','2024-08-24 21:25:17','2024-08-24 21:25:17'`
+
+        var sql = "INSERT INTO docs (`id`, `law_id`, `title`, `slug`,`description`,`content`,`doc_pdf`,`doc_word`,`created_at`, `updated_at`) VALUES ("+result+");";
+
+        con.query(sql, function(err, results) {
+            if (err) throw err;
+            console.log("results",results)
+            return
+        });
     }
 
     console.log('done')
